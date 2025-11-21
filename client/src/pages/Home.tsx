@@ -66,10 +66,10 @@ export default function Home() {
         />
         <div className="relative z-10 container text-center text-white space-y-6">
           <h1 className="text-5xl md:text-7xl font-bold mb-4" style={{ fontFamily: "'Playfair Display', serif" }}>
-            Premium Spanish Food Products
+            Your Premium Spanish Food Partner
           </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
-            Your trusted partner for authentic Mediterranean excellence
+            Bulk distribution of authentic Mediterranean products for international markets. Mikel's brand or white label solutions.
           </p>
           <div className="inline-flex items-center gap-3 bg-accent/90 text-accent-foreground px-6 py-3 rounded-full mb-8">
             <Clock size={24} />
@@ -82,7 +82,7 @@ export default function Home() {
               className="bg-accent text-accent-foreground hover:bg-accent/90 text-lg px-8 py-6"
               onClick={() => document.getElementById("products")?.scrollIntoView({ behavior: "smooth" })}
             >
-              Discover Our Products
+              View Product Catalog
             </Button>
             <Button 
               size="lg" 
@@ -90,7 +90,7 @@ export default function Home() {
               className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-primary text-lg px-8 py-6"
               onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
             >
-              Contact Sales Team
+              Request Distribution Info
             </Button>
           </div>
         </div>
@@ -106,7 +106,7 @@ export default function Home() {
         <div className="container">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <StatBox number="200+" label="Years of Tradition" sublabel="Since 1819" />
-            <StatBox number="15+" label="Countries Served" sublabel="Worldwide" />
+            <StatBox number="15+" label="Countries Served" sublabel="Focus on Asia" />
             <StatBox number="100%" label="Quality Commitment" sublabel="Certified Premium" />
             <StatBox number="400" label="Hectares" sublabel="In Production" />
           </div>
@@ -199,13 +199,13 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ProductCard 
-              image="https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?w=800"
+              image="/paraguayo-product.webp"
               title="Paraguayo (Flat Peach)"
               description="World's only producer of Paraguayo in light syrup. Handcrafted following traditional family methods with exceptional sweetness and delicate flavor."
               badge="⭐ Exclusive"
             />
             <ProductCard 
-              image="https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=800"
+              image="/olive-oil-product.webp"
               title="Extra Virgin Olive Oil"
               description="Award-winning organic olive oil from Córdoba. Gold Medal winner at Olive Japan 2025 and World's Best Olive Oils 2022 & 2024."
               badge="🏆 Award Winner"
@@ -231,6 +231,25 @@ export default function Home() {
               description="Premium Arbequina olive variety born in Lleida. Delicate flavor and smooth texture, perfect for gourmet markets."
             />
           </div>
+          
+          <div className="mt-16 bg-accent/10 rounded-2xl p-8 md:p-12 text-center">
+            <h3 className="text-2xl md:text-3xl font-bold mb-4 text-foreground" style={{ fontFamily: "'Playfair Display', serif" }}>
+              Bulk Distribution & White Label Available
+            </h3>
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-6">
+              All products available in bulk quantities for international distribution. We offer Mikel's branded products or white label solutions tailored to your market needs.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <div className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg font-semibold">
+                <CheckCircle size={20} />
+                <span>Container Loads Available</span>
+              </div>
+              <div className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg font-semibold">
+                <CheckCircle size={20} />
+                <span>Custom Packaging Options</span>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -240,7 +259,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <img 
-                src="https://images.unsplash.com/photo-1629828874514-d05b9f80c5f6?w=800" 
+                src="/paraguayo-product.webp" 
                 alt="Paraguayo Product" 
                 className="rounded-2xl shadow-2xl w-full"
               />
@@ -494,9 +513,15 @@ export default function Home() {
                 <h3 className="text-3xl font-bold mb-6" style={{ fontFamily: "'Playfair Display', serif" }}>
                   Let's Build a Successful Partnership
                 </h3>
-                <p className="text-lg opacity-90">
-                  Farms Planet is committed to supporting your success in the Korean market and beyond with authentic Spanish products, reliable supply, and exceptional service.
+                <p className="text-lg opacity-90 mb-6">
+                  Farms Planet is committed to supporting your success in Asian markets (Korea, Japan, Taiwan) and beyond with authentic Spanish products, reliable supply, and exceptional service.
                 </p>
+                <div className="bg-primary/20 rounded-lg p-6 mt-6">
+                  <h4 className="font-bold text-xl mb-3">🏷️ White Label Solutions Available</h4>
+                  <p className="opacity-90">
+                    We offer private label manufacturing for distributors who want to build their own brand with our premium Spanish products. Your brand, our 200-year expertise.
+                  </p>
+                </div>
               </CardContent>
             </Card>
             <Card className="bg-primary text-primary-foreground">
@@ -517,11 +542,25 @@ export default function Home() {
         <div className="container max-w-4xl">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground" style={{ fontFamily: "'Playfair Display', serif" }}>
-              Contact Us
+              Start Your Distribution Partnership
             </h2>
-            <p className="text-xl text-muted-foreground">
-              Ready to partner with us? Get in touch with our sales team
+            <p className="text-xl text-muted-foreground mb-4">
+              Connect with our international sales team to discuss bulk orders, white label solutions, and distribution opportunities
             </p>
+            <div className="flex flex-wrap gap-3 justify-center">
+              <span className="inline-flex items-center gap-2 bg-accent/10 text-accent px-4 py-2 rounded-full text-sm font-semibold">
+                <CheckCircle size={16} />
+                Bulk Pricing Available
+              </span>
+              <span className="inline-flex items-center gap-2 bg-accent/10 text-accent px-4 py-2 rounded-full text-sm font-semibold">
+                <CheckCircle size={16} />
+                White Label Options
+              </span>
+              <span className="inline-flex items-center gap-2 bg-accent/10 text-accent px-4 py-2 rounded-full text-sm font-semibold">
+                <CheckCircle size={16} />
+                Asia Market Expertise
+              </span>
+            </div>
           </div>
 
           <Card>
@@ -580,21 +619,23 @@ export default function Home() {
                     />
                   </div>
                   <div>
-                    <label className="block text-sm font-medium mb-2">Product Interest</label>
+                    <label className="block text-sm font-medium mb-2">Product Interest *</label>
                     <Input 
+                      required
                       value={formData.interest}
                       onChange={(e) => setFormData({...formData, interest: e.target.value})}
-                      placeholder="e.g., Paraguayo, Olive Oil"
+                      placeholder="Paraguayo, Olive Oil, White Label, etc."
                     />
                   </div>
                 </div>
 
                 <div>
-                  <label className="block text-sm font-medium mb-2">Message</label>
+                  <label className="block text-sm font-medium mb-2">Message *</label>
                   <Textarea 
+                    required
                     value={formData.message}
                     onChange={(e) => setFormData({...formData, message: e.target.value})}
-                    placeholder="Tell us about your requirements..."
+                    placeholder="Tell us about your distribution needs, target market, estimated volumes, and any specific requirements..."
                     rows={5}
                   />
                 </div>
@@ -607,7 +648,7 @@ export default function Home() {
                     onChange={(e) => setFormData({...formData, requestCatalog: e.target.checked})}
                     className="w-4 h-4"
                   />
-                  <label htmlFor="catalog" className="text-sm">Request product catalog</label>
+                  <label htmlFor="catalog" className="text-sm font-medium">Request full product catalog with bulk pricing</label>
                 </div>
 
                 <Button 
@@ -615,7 +656,7 @@ export default function Home() {
                   size="lg"
                   className="w-full bg-accent text-accent-foreground hover:bg-primary hover:text-primary-foreground"
                 >
-                  Send Message
+                  Request Distribution Information
                 </Button>
               </form>
 

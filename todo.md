@@ -32,6 +32,15 @@
 - [x] Testing en diferentes navegadores
 
 ## Despliegue
-- [ ] Crear checkpoint inicial
-- [ ] Verificar preview en Management UI
-- [ ] Documentar instrucciones de despliegue
+- [x] Crear checkpoint inicial
+- [x] Verificar preview en Management UI
+- [x] Documentar instrucciones de despliegue
+
+## Actualización con Imágenes Reales y Enfoque B2B
+- [x] Obtener imágenes reales de productos de mikels.es
+- [x] Reemplazar imágenes placeholder con productos reales
+- [x] Reforzar mensajes B2B para distribución internacional
+- [x] Destacar enfoque en mercados asiáticos (Korea, Japón, Taiwan)
+- [x] Añadir sección de marca blanca (white label)
+- [x] Optimizar CTAs para generación de leads de distribuidores
+- [x] Crear checkpoint final con imágenes reales
