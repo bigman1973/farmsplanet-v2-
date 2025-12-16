@@ -58,6 +58,12 @@ export default function Navbar() {
             >
               {t('nav.partnership')}
             </button>
+            <button
+              onClick={() => scrollToSection("digital")}
+              className="text-base font-medium text-foreground hover:text-primary transition-colors"
+            >
+              {t('nav.digital')}
+            </button>
             <LanguageSelector />
             <Button
               onClick={() => scrollToSection("contact")}
@@ -106,6 +112,12 @@ export default function Navbar() {
                 className="text-left text-base font-medium text-foreground hover:text-primary transition-colors py-2"
               >
                 {t('nav.partnership')}
+              </button>
+              <button
+                onClick={() => scrollToSection("digital")}
+                className="text-left text-base font-medium text-foreground hover:text-primary transition-colors py-2"
+              >
+                {t('nav.digital')}
               </button>
               <Button
                 onClick={() => scrollToSection("contact")}

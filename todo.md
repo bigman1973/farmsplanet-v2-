@@ -67,3 +67,15 @@
 - [x] Incluir link a mikels.es como ejemplo funcional
 - [x] Añadir traducciones en inglés y español
 - [ ] Diseñar mockup o screenshot de ejemplo de tienda
+
+## Mejoras Digital Partnership
+- [x] Añadir "Digital Partnership" al menú de navegación del header
+- [x] Capturar screenshot de mikels.es
+- [x] Reemplazar placeholder con screenshot real de mikels.es
+- [x] Añadir traducciones para nuevo item del menú
+
+## Mejoras Digital Partnership
+- [x] Añadir "Digital Partnership" al menú de navegación del header
+- [x] Capturar screenshot de mikels.es
+- [x] Reemplazar placeholder con screenshot real de mikels.es
+- [x] Añadir traducciones para nuevo item del menú

@@ -549,7 +549,7 @@ export default function Home() {
       </section>
 
       {/* Digital Partnership Section */}
-      <section className="py-20 bg-gradient-to-br from-primary to-primary/80 text-primary-foreground">
+      <section id="digital" className="py-20 bg-gradient-to-br from-primary to-primary/80 text-primary-foreground">
         <div className="container">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-accent" style={{ fontFamily: "'Playfair Display', serif" }}>
@@ -626,13 +626,17 @@ export default function Home() {
                     </Button>
                   </div>
                 </div>
-                <div className="bg-muted rounded-lg p-6 border-2 border-dashed border-border">
-                  <div className="aspect-video bg-background rounded flex items-center justify-center">
-                    <div className="text-center">
-                      <Globe size={64} className="text-primary mx-auto mb-4" />
-                      <p className="text-muted-foreground font-medium">mikels.es</p>
-                      <p className="text-sm text-muted-foreground">Live Demo Store</p>
-                    </div>
+                <div className="bg-muted rounded-lg p-4 border-2 border-border overflow-hidden">
+                  <div className="aspect-video bg-background rounded overflow-hidden">
+                    <img 
+                      src="/mikels-screenshot.webp" 
+                      alt="mikels.es - Live Demo Store" 
+                      className="w-full h-full object-cover object-top"
+                    />
+                  </div>
+                  <div className="text-center mt-4">
+                    <p className="text-muted-foreground font-medium">mikels.es</p>
+                    <p className="text-sm text-muted-foreground">Live Demo Store</p>
                   </div>
                 </div>
               </div>
