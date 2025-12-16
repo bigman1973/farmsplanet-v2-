@@ -1,0 +1,164 @@
+{
+  "nav": {
+    "about": "About",
+    "products": "Products",
+    "quality": "Quality",
+    "partnership": "Partnership",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Your Premium Spanish Food Partner",
+    "subtitle": "Bulk distribution of authentic Mediterranean products for international markets. Mikel's brand or white label solutions.",
+    "tradition": "200+ Years of Tradition",
+    "since": "Since 1819",
+    "viewCatalog": "View Product Catalog",
+    "requestInfo": "Request Distribution Info"
+  },
+  "stats": {
+    "years": "Years of Tradition",
+    "since1819": "Since 1819",
+    "countries": "Countries Served",
+    "focusAsia": "Focus on Asia",
+    "quality": "Quality Commitment",
+    "certified": "Certified Premium",
+    "hectares": "Hectares",
+    "production": "In Production"
+  },
+  "about": {
+    "title": "Our Heritage",
+    "subtitle": "Five generations of dedication to authentic Mediterranean flavors, from the heart of Spain to the world",
+    "foundation": "Foundation",
+    "foundationDesc": "Our family settles in Alcarràs, Catalonia, beginning a legacy of agricultural excellence that would span generations.",
+    "tradition": "Continued Tradition",
+    "traditionDesc": "Seven generations have maintained our commitment to quality, expanding from local markets to international presence.",
+    "recognition": "International Recognition",
+    "recognitionDesc": "Awards from Olive Japan, World's Best Olive Oils, and Eco Garden certification place us among the world's elite producers.",
+    "alcarras": "Alcarràs, Catalonia",
+    "alcarrasDesc": "Located in the world's leading stone fruits production region, our 400-hectare groves benefit from ideal Mediterranean climate and centuries of expertise. This is where our premium peaches, nectarines, and the unique Paraguayo are cultivated.",
+    "europeLeading": "Europe's Leading Stone Fruits Region",
+    "cordoba": "Córdoba, Andalusia",
+    "cordobaDesc": "In the heart of Andalusia's olive country, we produce award-winning extra virgin olive oil that has earned international acclaim. Our organic production methods honor the land and deliver exceptional flavor.",
+    "goldAward": "World's Best Olive Oils Gold Award"
+  },
+  "products": {
+    "title": "Our Premium Products",
+    "subtitle": "From sun-ripened stone fruits to award-winning olive oil, every product embodies our commitment to Mediterranean authenticity",
+    "paraguayo": {
+      "title": "Paraguayo in Light Syrup",
+      "description": "The flat peach that conquered our hearts over a century ago. Cultivated in Alcarràs, hand-selected, patiently cooked and lovingly jarred. World's only producer.",
+      "badge": "🌍 World Exclusive"
+    },
+    "oliveOil": {
+      "title": "Extra Virgin Olive Oil",
+      "description": "Award-winning organic olive oil from Córdoba. Gold Medal winner at Olive Japan 2025 and World's Best Olive Oils 2022 & 2024. Three varieties: Arbequina, Picual, Hojiblanca.",
+      "badge": "🏆 Award Winner"
+    },
+    "temprano": {
+      "title": "Early Harvest Olive Oil",
+      "description": "Not for everyone. And we love it. This early harvest oil, made from green olives, is intense, spicy, with a green fruitiness that explodes on the palate.",
+      "badge": "🍂 Limited Edition"
+    },
+    "nectarina": {
+      "title": "Nectarine in Light Syrup",
+      "description": "The peach without complexes: smooth skin, intense flavor, defined character. Cultivated in Alcarràs with the same care as our Paraguayo.",
+      "badge": "✨ Artisanal"
+    },
+    "bulkTitle": "Bulk Distribution & White Label Available",
+    "bulkDesc": "All products available in bulk quantities for international distribution. We offer Mikel's branded products or white label solutions tailored to your market needs.",
+    "containerLoads": "Container Loads Available",
+    "customPackaging": "Custom Packaging Options"
+  },
+  "signature": {
+    "badge": "WORLD'S ONLY PRODUCER",
+    "title": "Paraguayo - Our Signature Product",
+    "description": "Paraguayo, also known as flat peach or donut peach, is a unique variety with exceptional sweetness and delicate flavor. Mikel's is the only company in the world producing this specialty fruit in light syrup, making it an exclusive offering for discerning markets.",
+    "handcrafted": "Handcrafted",
+    "handcraftedDesc": "Each jar made by hand following traditional family methods",
+    "bestSeller": "Best Seller",
+    "bestSellerDesc": "International favorite across premium markets",
+    "quote": "Made with the same care and dedication that our family has applied for over 200 years"
+  },
+  "quality": {
+    "title": "Quality & Certifications",
+    "subtitle": "Every product bearing the Mikel's name represents our unwavering dedication to quality, authenticity, and health",
+    "vegan": "VEGAN FOOD",
+    "veganDesc": "100% plant-based products suitable for vegan diets",
+    "gmoFree": "GMO FREE",
+    "gmoFreeDesc": "No genetically modified organisms in any product",
+    "healthy": "HEALTHY FOOD",
+    "healthyDesc": "Natural ingredients promoting wellness",
+    "processTitle": "Minimal Industrial Processing",
+    "processDesc": "Our commitment to maintaining detailed processing in each of our products for Mikel's Food and Healthy offerings, just as we have been doing since 1819. From field to jar, we maintain strict quality control at every step.",
+    "qualityCommitment": "Quality Commitment",
+    "ecoGarden": "Eco Garden Certified",
+    "ecoGardenDesc": "Only 3 companies in Spain hold this certification",
+    "awardsTitle": "Awards & Certifications",
+    "oliveJapan2022": "Olive Japan 2022",
+    "oliveJapan2024": "World's Best 2024",
+    "oliveJapan2025": "Olive Japan 2025",
+    "ecoGardenCert": "Eco Garden"
+  },
+  "supplyChain": {
+    "title": "Global Supply Chain Excellence",
+    "subtitle": "Efficient logistics and dedicated service ensure your products arrive in Asia, Europe and America",
+    "logistics": "International Logistics",
+    "logisticsDesc": "Efficient shipping to all major ports",
+    "standards": "Quality Standards",
+    "standardsDesc": "Meeting international food safety requirements",
+    "partnership": "Reliable Partnership",
+    "partnershipDesc": "Dedicated support for your business growth",
+    "exportTitle": "Our Export Capabilities",
+    "container": "Container Shipping",
+    "containerDesc": "Full and partial container loads",
+    "coldChain": "Cold Chain",
+    "coldChainDesc": "Temperature-controlled logistics",
+    "documentation": "Documentation",
+    "documentationDesc": "Complete export paperwork",
+    "customOrders": "Custom Orders",
+    "customOrdersDesc": "Tailored solutions for your market"
+  },
+  "partnership": {
+    "title": "Your Strategic Partner for Success",
+    "uniqueProducts": "Unique Products",
+    "uniqueProductsDesc": "World's only Paraguayo in syrup",
+    "qualityAssured": "Quality Assured",
+    "qualityAssuredDesc": "Certified premium products",
+    "yearsExperience": "200+ Years",
+    "yearsExperienceDesc": "Proven tradition since 1819",
+    "fullSupport": "Full Support",
+    "fullSupportDesc": "Dedicated customer service",
+    "buildPartnership": "Let's Build a Successful Partnership",
+    "partnershipDesc": "Farms Planet is committed to supporting your success in Asian markets (Korea, Japan, Taiwan) and beyond with authentic Spanish products, reliable supply, and exceptional service.",
+    "whiteLabel": "🏷️ White Label Solutions Available",
+    "whiteLabelDesc": "We offer private label manufacturing for distributors who want to build their own brand with our premium Spanish products. Your brand, our 200-year expertise."
+  },
+  "contact": {
+    "title": "Start Your Distribution Partnership",
+    "subtitle": "Connect with our international sales team to discuss bulk orders, white label solutions, and distribution opportunities",
+    "bulkPricing": "Bulk Pricing Available",
+    "whiteLabelOptions": "White Label Options",
+    "asiaExpertise": "Asia Market Expertise",
+    "companyName": "Company Name",
+    "contactPerson": "Contact Person",
+    "email": "Email",
+    "phone": "Phone",
+    "country": "Country",
+    "productInterest": "Product Interest",
+    "productPlaceholder": "Paraguayo, Olive Oil, White Label, etc.",
+    "message": "Message",
+    "messagePlaceholder": "Tell us about your distribution needs, target market, estimated volumes, and any specific requirements...",
+    "requestCatalog": "Request full product catalog with bulk pricing",
+    "submit": "Request Distribution Information",
+    "directContact": "Direct Contact",
+    "ceo": "CEO",
+    "sales": "Sales",
+    "successMessage": "Thank you for your interest! We'll contact you soon."
+  },
+  "footer": {
+    "description": "Premium Spanish food products with over 200 years of tradition. Your trusted partner for authentic Mediterranean excellence.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "rights": "All rights reserved.",
+    "tagline": "Premium Spanish Food Products"
+  }
+}

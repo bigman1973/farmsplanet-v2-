@@ -1,0 +1,164 @@
+{
+  "nav": {
+    "about": "Nosotros",
+    "products": "Productos",
+    "quality": "Calidad",
+    "partnership": "Colaboración",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Tu Socio Premium de Alimentación Española",
+    "subtitle": "Distribución a gran escala de productos mediterráneos auténticos para mercados internacionales. Marca Mikel's o soluciones de marca blanca.",
+    "tradition": "200+ Años de Tradición",
+    "since": "Desde 1819",
+    "viewCatalog": "Ver Catálogo de Productos",
+    "requestInfo": "Solicitar Información de Distribución"
+  },
+  "stats": {
+    "years": "Años de Tradición",
+    "since1819": "Desde 1819",
+    "countries": "Países Servidos",
+    "focusAsia": "Enfoque en Asia",
+    "quality": "Compromiso de Calidad",
+    "certified": "Premium Certificado",
+    "hectares": "Hectáreas",
+    "production": "En Producción"
+  },
+  "about": {
+    "title": "Nuestra Historia",
+    "subtitle": "Cinco generaciones dedicadas a los sabores mediterráneos auténticos, desde el corazón de España al mundo",
+    "foundation": "Fundación",
+    "foundationDesc": "Nuestra familia se establece en Alcarràs, Cataluña, iniciando un legado de excelencia agrícola que abarcaría generaciones.",
+    "tradition": "Tradición Continuada",
+    "traditionDesc": "Siete generaciones han mantenido nuestro compromiso con la calidad, expandiéndonos de mercados locales a presencia internacional.",
+    "recognition": "Reconocimiento Internacional",
+    "recognitionDesc": "Premios de Olive Japan, World's Best Olive Oils y certificación Eco Garden nos sitúan entre los productores de élite mundial.",
+    "alcarras": "Alcarràs, Cataluña",
+    "alcarrasDesc": "Ubicados en la región líder mundial de producción de frutas de hueso, nuestros 400 hectáreas de huertos se benefician del clima mediterráneo ideal y siglos de experiencia. Aquí cultivamos nuestros melocotones premium, nectarinas y el único Paraguayo.",
+    "europeLeading": "Región Líder Europea en Frutas de Hueso",
+    "cordoba": "Córdoba, Andalucía",
+    "cordobaDesc": "En el corazón del país olivarero de Andalucía, producimos aceite de oliva virgen extra premiado que ha ganado reconocimiento internacional. Nuestros métodos de producción ecológica honran la tierra y ofrecen un sabor excepcional.",
+    "goldAward": "Premio Oro World's Best Olive Oils"
+  },
+  "products": {
+    "title": "Nuestros Productos Premium",
+    "subtitle": "Desde frutas de hueso maduradas al sol hasta aceite de oliva premiado, cada producto encarna nuestro compromiso con la autenticidad mediterránea",
+    "paraguayo": {
+      "title": "Paraguayo en Almíbar",
+      "description": "El melocotón plano que conquistó nuestros corazones hace más de un siglo. Cultivado en Alcarràs, seleccionado a mano, cocido con paciencia y envasado con amor. Único productor mundial.",
+      "badge": "🌍 Exclusivo Mundial"
+    },
+    "oliveOil": {
+      "title": "Aceite de Oliva Virgen Extra",
+      "description": "Aceite de oliva ecológico premiado de Córdoba. Medalla de Oro en Olive Japan 2025 y World's Best Olive Oils 2022 y 2024. Tres variedades: Arbequina, Picual, Hojiblanca.",
+      "badge": "🏆 Premiado"
+    },
+    "temprano": {
+      "title": "Aceite Temprano",
+      "description": "No es para todos. Y nos encanta. Este aceite de cosecha temprana, elaborado con aceitunas verdes, es intenso, picante, con un frutado verde que explota en boca.",
+      "badge": "🍂 Edición Limitada"
+    },
+    "nectarina": {
+      "title": "Nectarina en Almíbar",
+      "description": "El melocotón sin complejos: piel lisa, sabor intenso, carácter definido. Cultivada en Alcarràs con el mismo cuidado que nuestro Paraguayo.",
+      "badge": "✨ Artesanal"
+    },
+    "bulkTitle": "Distribución a Granel y Marca Blanca Disponible",
+    "bulkDesc": "Todos los productos disponibles en grandes cantidades para distribución internacional. Ofrecemos productos con marca Mikel's o soluciones de marca blanca adaptadas a las necesidades de tu mercado.",
+    "containerLoads": "Cargas de Contenedor Disponibles",
+    "customPackaging": "Opciones de Embalaje Personalizado"
+  },
+  "signature": {
+    "badge": "ÚNICO PRODUCTOR MUNDIAL",
+    "title": "Paraguayo - Nuestro Producto Estrella",
+    "description": "El Paraguayo, también conocido como melocotón plano o donut peach, es una variedad única con dulzura excepcional y sabor delicado. Mikel's es la única empresa del mundo que produce esta fruta especial en almíbar, convirtiéndola en una oferta exclusiva para mercados exigentes.",
+    "handcrafted": "Artesanal",
+    "handcraftedDesc": "Cada tarro elaborado a mano siguiendo métodos tradicionales familiares",
+    "bestSeller": "Más Vendido",
+    "bestSellerDesc": "Favorito internacional en mercados premium",
+    "quote": "Elaborado con el mismo cuidado y dedicación que nuestra familia ha aplicado durante más de 200 años"
+  },
+  "quality": {
+    "title": "Calidad y Certificaciones",
+    "subtitle": "Cada producto que lleva el nombre Mikel's representa nuestra dedicación inquebrantable a la calidad, autenticidad y salud",
+    "vegan": "COMIDA VEGANA",
+    "veganDesc": "Productos 100% vegetales aptos para dietas veganas",
+    "gmoFree": "SIN OGM",
+    "gmoFreeDesc": "Sin organismos genéticamente modificados en ningún producto",
+    "healthy": "COMIDA SALUDABLE",
+    "healthyDesc": "Ingredientes naturales que promueven el bienestar",
+    "processTitle": "Procesamiento Industrial Mínimo",
+    "processDesc": "Nuestro compromiso de mantener un procesamiento detallado en cada uno de nuestros productos para las ofertas de Mikel's Food and Healthy, tal como lo hemos hecho desde 1819. Del campo al tarro, mantenemos un estricto control de calidad en cada paso.",
+    "qualityCommitment": "Compromiso de Calidad",
+    "ecoGarden": "Certificado Eco Garden",
+    "ecoGardenDesc": "Solo 3 empresas en España tienen esta certificación",
+    "awardsTitle": "Premios y Certificaciones",
+    "oliveJapan2022": "Olive Japan 2022",
+    "oliveJapan2024": "World's Best 2024",
+    "oliveJapan2025": "Olive Japan 2025",
+    "ecoGardenCert": "Eco Garden"
+  },
+  "supplyChain": {
+    "title": "Excelencia en Cadena de Suministro Global",
+    "subtitle": "Logística eficiente y servicio dedicado aseguran que tus productos lleguen a Asia, Europa y América",
+    "logistics": "Logística Internacional",
+    "logisticsDesc": "Envío eficiente a todos los puertos principales",
+    "standards": "Estándares de Calidad",
+    "standardsDesc": "Cumpliendo requisitos internacionales de seguridad alimentaria",
+    "partnership": "Colaboración Fiable",
+    "partnershipDesc": "Soporte dedicado para el crecimiento de tu negocio",
+    "exportTitle": "Nuestras Capacidades de Exportación",
+    "container": "Envío en Contenedor",
+    "containerDesc": "Cargas completas y parciales de contenedor",
+    "coldChain": "Cadena de Frío",
+    "coldChainDesc": "Logística con temperatura controlada",
+    "documentation": "Documentación",
+    "documentationDesc": "Documentación de exportación completa",
+    "customOrders": "Pedidos Personalizados",
+    "customOrdersDesc": "Soluciones adaptadas a tu mercado"
+  },
+  "partnership": {
+    "title": "Tu Socio Estratégico para el Éxito",
+    "uniqueProducts": "Productos Únicos",
+    "uniqueProductsDesc": "Único Paraguayo en almíbar del mundo",
+    "qualityAssured": "Calidad Garantizada",
+    "qualityAssuredDesc": "Productos premium certificados",
+    "yearsExperience": "200+ Años",
+    "yearsExperienceDesc": "Tradición probada desde 1819",
+    "fullSupport": "Soporte Completo",
+    "fullSupportDesc": "Servicio al cliente dedicado",
+    "buildPartnership": "Construyamos una Colaboración Exitosa",
+    "partnershipDesc": "Farms Planet está comprometido a apoyar tu éxito en mercados asiáticos (Corea, Japón, Taiwán) y más allá con productos españoles auténticos, suministro fiable y servicio excepcional.",
+    "whiteLabel": "🏷️ Soluciones de Marca Blanca Disponibles",
+    "whiteLabelDesc": "Ofrecemos fabricación de marca privada para distribuidores que quieren construir su propia marca con nuestros productos españoles premium. Tu marca, nuestra experiencia de 200 años."
+  },
+  "contact": {
+    "title": "Inicia tu Colaboración de Distribución",
+    "subtitle": "Conecta con nuestro equipo de ventas internacional para discutir pedidos a granel, soluciones de marca blanca y oportunidades de distribución",
+    "bulkPricing": "Precios por Volumen Disponibles",
+    "whiteLabelOptions": "Opciones de Marca Blanca",
+    "asiaExpertise": "Experiencia en Mercado Asiático",
+    "companyName": "Nombre de la Empresa",
+    "contactPerson": "Persona de Contacto",
+    "email": "Email",
+    "phone": "Teléfono",
+    "country": "País",
+    "productInterest": "Interés en Producto",
+    "productPlaceholder": "Paraguayo, Aceite de Oliva, Marca Blanca, etc.",
+    "message": "Mensaje",
+    "messagePlaceholder": "Cuéntanos sobre tus necesidades de distribución, mercado objetivo, volúmenes estimados y cualquier requisito específico...",
+    "requestCatalog": "Solicitar catálogo completo de productos con precios por volumen",
+    "submit": "Solicitar Información de Distribución",
+    "directContact": "Contacto Directo",
+    "ceo": "CEO",
+    "sales": "Ventas",
+    "successMessage": "¡Gracias por tu interés! Te contactaremos pronto."
+  },
+  "footer": {
+    "description": "Productos alimentarios españoles premium con más de 200 años de tradición. Tu socio de confianza para la excelencia mediterránea auténtica.",
+    "quickLinks": "Enlaces Rápidos",
+    "contact": "Contacto",
+    "rights": "Todos los derechos reservados.",
+    "tagline": "Productos Alimentarios Españoles Premium"
+  }
+}

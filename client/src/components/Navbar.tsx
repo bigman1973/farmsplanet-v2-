@@ -2,9 +2,12 @@ import { APP_LOGO } from "@/const";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
+import LanguageSelector from "./LanguageSelector";
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const { t } = useTranslation();
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
@@ -30,52 +33,50 @@ export default function Navbar() {
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center gap-8">
+          <div className="hidden lg:flex items-center gap-6">
             <button
               onClick={() => scrollToSection("about")}
               className="text-sm font-medium text-foreground hover:text-primary transition-colors"
             >
-              About Us
+              {t('nav.about')}
             </button>
             <button
               onClick={() => scrollToSection("products")}
               className="text-sm font-medium text-foreground hover:text-primary transition-colors"
             >
-              Products
+              {t('nav.products')}
             </button>
             <button
               onClick={() => scrollToSection("quality")}
               className="text-sm font-medium text-foreground hover:text-primary transition-colors"
             >
-              Quality
-            </button>
-            <button
-              onClick={() => scrollToSection("supply-chain")}
-              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
-            >
-              Supply Chain
+              {t('nav.quality')}
             </button>
             <button
               onClick={() => scrollToSection("partnership")}
               className="text-sm font-medium text-foreground hover:text-primary transition-colors"
             >
-              Partnership
+              {t('nav.partnership')}
             </button>
+            <LanguageSelector />
             <Button
               onClick={() => scrollToSection("contact")}
               className="bg-accent text-accent-foreground hover:bg-primary hover:text-primary-foreground"
             >
-              Contact Us
+              {t('nav.contact')}
             </Button>
           </div>
 
           {/* Mobile Menu Button */}
-          <button
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="lg:hidden p-2 text-foreground hover:text-primary"
-          >
-            {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
+          <div className="lg:hidden flex items-center gap-2">
+            <LanguageSelector />
+            <button
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              className="p-2 text-foreground hover:text-primary"
+            >
+              {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
+          </div>
         </div>
 
         {/* Mobile Menu */}
@@ -86,37 +87,31 @@ export default function Navbar() {
                 onClick={() => scrollToSection("about")}
                 className="text-left text-sm font-medium text-foreground hover:text-primary transition-colors py-2"
               >
-                About Us
+                {t('nav.about')}
               </button>
               <button
                 onClick={() => scrollToSection("products")}
                 className="text-left text-sm font-medium text-foreground hover:text-primary transition-colors py-2"
               >
-                Products
+                {t('nav.products')}
               </button>
               <button
                 onClick={() => scrollToSection("quality")}
                 className="text-left text-sm font-medium text-foreground hover:text-primary transition-colors py-2"
               >
-                Quality
-              </button>
-              <button
-                onClick={() => scrollToSection("supply-chain")}
-                className="text-left text-sm font-medium text-foreground hover:text-primary transition-colors py-2"
-              >
-                Supply Chain
+                {t('nav.quality')}
               </button>
               <button
                 onClick={() => scrollToSection("partnership")}
                 className="text-left text-sm font-medium text-foreground hover:text-primary transition-colors py-2"
               >
-                Partnership
+                {t('nav.partnership')}
               </button>
               <Button
                 onClick={() => scrollToSection("contact")}
                 className="bg-accent text-accent-foreground hover:bg-primary hover:text-primary-foreground w-full"
               >
-                Contact Us
+                {t('nav.contact')}
               </Button>
             </div>
           </div>

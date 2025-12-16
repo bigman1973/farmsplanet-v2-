@@ -44,3 +44,14 @@
 - [x] Añadir sección de marca blanca (white label)
 - [x] Optimizar CTAs para generación de leads de distribuidores
 - [x] Crear checkpoint final con imágenes reales
+
+## Actualización Multiidioma y Productos Reales
+- [x] Limitar productos a los de mikels.es (Paraguayo, Aceites, Nectarina, Packs)
+- [x] Actualizar descripciones con textos reales de mikels.es
+- [x] Implementar sistema i18n (react-i18next)
+- [x] Crear archivo de traducciones en inglés
+- [x] Crear archivo de traducciones en español
+- [x] Añadir selector de idioma en navbar
+- [x] Preparar estructura para idiomas futuros (DE, FR, JA, KO, ZH, AR)
+- [x] Testing multiidioma
+- [x] Crear checkpoint final
