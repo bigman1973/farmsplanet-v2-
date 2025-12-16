@@ -1,0 +1,183 @@
+{
+  "nav": {
+    "about": "À Propos",
+    "products": "Produits",
+    "quality": "Qualité",
+    "partnership": "Partenariat",
+    "digital": "Solution Digitale",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Votre Partenaire Premium de Produits Alimentaires Espagnols",
+    "subtitle": "Distribution en gros de produits méditerranéens authentiques pour les marchés internationaux. Marque Mikel's ou solutions marque blanche.",
+    "tradition": "Plus de 200 Ans de Tradition",
+    "since": "Depuis 1819",
+    "viewCatalog": "Voir le Catalogue de Produits",
+    "requestInfo": "Demander des Informations de Distribution"
+  },
+  "stats": {
+    "years": "Années de Tradition",
+    "since1819": "Depuis 1819",
+    "countries": "Pays Servis",
+    "focusAsia": "Portée Mondiale",
+    "quality": "Engagement Qualité",
+    "certified": "Certifié Premium",
+    "hectares": "Hectares",
+    "production": "En Production"
+  },
+  "about": {
+    "title": "Notre Héritage",
+    "subtitle": "Cinq générations dédiées aux saveurs méditerranéennes authentiques, du cœur de l'Espagne au monde entier",
+    "foundation": "Fondation",
+    "foundationDesc": "Notre famille s'installe à Alcarràs, Catalogne, débutant un héritage d'excellence agricole qui s'étendra sur des générations.",
+    "tradition": "Tradition Continue",
+    "traditionDesc": "Sept générations ont maintenu notre engagement envers la qualité, s'étendant des marchés locaux à une présence internationale.",
+    "recognition": "Reconnaissance Internationale",
+    "recognitionDesc": "Les prix d'Olive Japan, World's Best Olive Oils et la certification Eco Garden nous placent parmi les producteurs d'élite mondiaux.",
+    "alcarras": "Alcarràs, Catalogne",
+    "alcarrasDesc": "Situés dans la principale région de production de fruits à noyau au monde, nos 400 hectares de vergers bénéficient d'un climat méditerranéen idéal et de siècles d'expertise. C'est ici que sont cultivés nos pêches premium, nectarines et le Paraguayo unique.",
+    "europeLeading": "Première Région Européenne de Fruits à Noyau",
+    "cordoba": "Cordoue, Andalousie",
+    "cordobaDesc": "Au cœur du pays de l'olive andalou, nous produisons une huile d'olive extra vierge primée qui a gagné une reconnaissance internationale. Nos méthodes de production biologique honorent la terre et offrent une saveur exceptionnelle.",
+    "goldAward": "Médaille d'Or World's Best Olive Oils"
+  },
+  "products": {
+    "title": "Nos Produits Premium",
+    "subtitle": "Des fruits à noyau mûris au soleil à l'huile d'olive primée, chaque produit incarne notre engagement envers l'authenticité méditerranéenne",
+    "paraguayo": {
+      "title": "Paraguayo au Sirop Léger",
+      "description": "La pêche plate qui a conquis nos cœurs il y a plus d'un siècle. Cultivée à Alcarràs, sélectionnée à la main, cuite patiemment et mise en pot avec amour. Seul producteur mondial.",
+      "badge": "🌍 Exclusivité Mondiale"
+    },
+    "oliveOil": {
+      "title": "Huile d'Olive Extra Vierge",
+      "description": "Huile d'olive biologique primée de Cordoue. Médaille d'Or à Olive Japan 2025 et World's Best Olive Oils 2022 & 2024. Trois variétés : Arbequina, Picual, Hojiblanca.",
+      "badge": "🏆 Primée"
+    },
+    "temprano": {
+      "title": "Huile d'Olive Récolte Précoce",
+      "description": "Pas pour tout le monde. Et nous l'adorons. Cette huile de récolte précoce, faite d'olives vertes, est intense, épicée, avec un fruité vert qui explose en bouche.",
+      "badge": "🍂 Édition Limitée"
+    },
+    "nectarina": {
+      "title": "Nectarine au Sirop Léger",
+      "description": "La pêche sans complexes : peau lisse, saveur intense, caractère défini. Cultivée à Alcarràs avec le même soin que notre Paraguayo.",
+      "badge": "✨ Artisanal"
+    },
+    "bulkTitle": "Distribution en Gros & Marque Blanche Disponibles",
+    "bulkDesc": "Tous les produits disponibles en grandes quantités pour la distribution internationale. Nous proposons des produits de marque Mikel's ou des solutions marque blanche adaptées aux besoins de votre marché.",
+    "containerLoads": "Chargements de Conteneurs Disponibles",
+    "customPackaging": "Options d'Emballage Personnalisé"
+  },
+  "signature": {
+    "badge": "SEUL PRODUCTEUR MONDIAL",
+    "title": "Paraguayo - Notre Produit Signature",
+    "description": "Le Paraguayo, également connu sous le nom de pêche plate ou donut peach, est une variété unique avec une douceur exceptionnelle et une saveur délicate. Mikel's est la seule entreprise au monde à produire ce fruit spécial au sirop léger, en faisant une offre exclusive pour les marchés exigeants.",
+    "handcrafted": "Fait Main",
+    "handcraftedDesc": "Chaque pot fait à la main selon des méthodes familiales traditionnelles",
+    "bestSeller": "Meilleure Vente",
+    "bestSellerDesc": "Favori international sur les marchés premium",
+    "quote": "Fait avec le même soin et dévouement que notre famille applique depuis plus de 200 ans"
+  },
+  "quality": {
+    "title": "Qualité & Certifications",
+    "subtitle": "Chaque produit portant le nom Mikel's représente notre dévouement inébranlable à la qualité, l'authenticité et la santé",
+    "vegan": "ALIMENTATION VÉGANE",
+    "veganDesc": "Produits 100% végétaux adaptés aux régimes véganes",
+    "gmoFree": "SANS OGM",
+    "gmoFreeDesc": "Aucun organisme génétiquement modifié dans aucun produit",
+    "healthy": "ALIMENTATION SAINE",
+    "healthyDesc": "Ingrédients naturels favorisant le bien-être",
+    "processTitle": "Transformation Industrielle Minimale",
+    "processDesc": "Notre engagement à maintenir un traitement détaillé dans chacun de nos produits pour les offres Mikel's Food and Healthy, comme nous le faisons depuis 1819. Du champ au pot, nous maintenons un contrôle qualité strict à chaque étape.",
+    "qualityCommitment": "Engagement Qualité",
+    "ecoGarden": "Certifié Eco Garden",
+    "ecoGardenDesc": "Seulement 3 entreprises en Espagne détiennent cette certification",
+    "awardsTitle": "Prix & Certifications",
+    "oliveJapan2022": "Olive Japan 2022",
+    "oliveJapan2024": "World's Best 2024",
+    "oliveJapan2025": "Olive Japan 2025",
+    "ecoGardenCert": "Eco Garden"
+  },
+  "supplyChain": {
+    "title": "Excellence de la Chaîne d'Approvisionnement Mondiale",
+    "subtitle": "Logistique efficace et service dédié assurent l'arrivée de vos produits en Asie, Europe et Amérique",
+    "logistics": "Logistique Internationale",
+    "logisticsDesc": "Expédition efficace vers tous les ports principaux",
+    "standards": "Normes de Qualité",
+    "standardsDesc": "Répondant aux exigences internationales de sécurité alimentaire",
+    "partnership": "Partenariat Fiable",
+    "partnershipDesc": "Soutien dédié pour la croissance de votre entreprise",
+    "exportTitle": "Nos Capacités d'Exportation",
+    "container": "Expédition par Conteneur",
+    "containerDesc": "Chargements complets et partiels de conteneurs",
+    "coldChain": "Chaîne du Froid",
+    "coldChainDesc": "Logistique à température contrôlée",
+    "documentation": "Documentation",
+    "documentationDesc": "Paperasse d'exportation complète",
+    "customOrders": "Commandes Personnalisées",
+    "customOrdersDesc": "Solutions adaptées à votre marché"
+  },
+  "partnership": {
+    "title": "Votre Partenaire Stratégique pour le Succès",
+    "uniqueProducts": "Produits Uniques",
+    "uniqueProductsDesc": "Seul Paraguayo au sirop au monde",
+    "qualityAssured": "Qualité Assurée",
+    "qualityAssuredDesc": "Produits premium certifiés",
+    "yearsExperience": "Plus de 200 Ans",
+    "yearsExperienceDesc": "Tradition éprouvée depuis 1819",
+    "fullSupport": "Support Complet",
+    "fullSupportDesc": "Service client dédié",
+    "buildPartnership": "Construisons un Partenariat Réussi",
+    "partnershipDesc": "Farms Planet s'engage à soutenir votre succès en Europe, au Moyen-Orient (EAU) et en Asie avec des produits espagnols authentiques, un approvisionnement fiable et un service exceptionnel. Déjà présent en Corée, au Japon et à Taïwan.",
+    "whiteLabel": "🏷️ Solutions Marque Blanche Disponibles",
+    "whiteLabelDesc": "Nous proposons la fabrication de marque privée pour les distributeurs qui souhaitent construire leur propre marque avec nos produits espagnols premium. Votre marque, notre expertise de 200 ans.",
+    "ecommerce": "E-commerce Prêt",
+    "ecommerceDesc": "Votre propre boutique en ligne Mikel's pour votre marché"
+  },
+  "digitalPartnership": {
+    "title": "Votre Solution Digitale Complète",
+    "subtitle": "En tant que distributeur Farms Planet, vous ne recevez pas seulement des produits premium—vous obtenez une plateforme e-commerce clé en main prête à vendre sur votre marché",
+    "feature1": "Boutique en Ligne Personnalisée",
+    "feature1Desc": "Site web e-commerce entièrement fonctionnel avec votre domaine local, langue et devise",
+    "feature2": "Catalogue de Produits",
+    "feature2Desc": "Catalogue complet avec photographie professionnelle, descriptions et informations nutritionnelles",
+    "feature3": "Intégration des Paiements",
+    "feature3Desc": "Méthodes de paiement locales et options d'expédition configurées pour votre pays",
+    "feature4": "Support Marketing",
+    "feature4Desc": "Optimisation SEO, ressources pour réseaux sociaux et matériaux de marketing digital",
+    "exampleTitle": "Voyez-le en Action",
+    "exampleDesc": "Visitez notre boutique du marché espagnol pour voir l'expérience complète dont vos clients profiteront",
+    "visitDemo": "Visiter la Boutique Démo : mikels.es",
+    "requestStore": "Demander Votre Boutique Personnalisée"
+  },
+  "contact": {
+    "title": "Démarrez Votre Partenariat de Distribution",
+    "subtitle": "Contactez notre équipe de vente internationale pour discuter des commandes en gros, des solutions marque blanche et des opportunités de distribution",
+    "bulkPricing": "Tarifs en Gros Disponibles",
+    "whiteLabelOptions": "Options Marque Blanche",
+    "asiaExpertise": "Expertise du Marché Mondial",
+    "companyName": "Nom de l'Entreprise",
+    "contactPerson": "Personne de Contact",
+    "email": "Email",
+    "phone": "Téléphone",
+    "country": "Pays",
+    "productInterest": "Intérêt Produit",
+    "productPlaceholder": "Paraguayo, Huile d'Olive, Marque Blanche, etc.",
+    "message": "Message",
+    "messagePlaceholder": "Parlez-nous de vos besoins de distribution, marché cible, volumes estimés et toute exigence spécifique...",
+    "requestCatalog": "Demander le catalogue complet de produits avec tarifs en gros",
+    "submit": "Demander des Informations de Distribution",
+    "directContact": "Contact Direct",
+    "ceo": "PDG",
+    "sales": "Ventes",
+    "successMessage": "Merci pour votre intérêt ! Nous vous contacterons bientôt."
+  },
+  "footer": {
+    "description": "Produits alimentaires espagnols premium avec plus de 200 ans de tradition. Votre partenaire de confiance pour l'excellence méditerranéenne authentique.",
+    "quickLinks": "Liens Rapides",
+    "contact": "Contact",
+    "rights": "Tous droits réservés.",
+    "tagline": "Produits Alimentaires Espagnols Premium"
+  }
+}

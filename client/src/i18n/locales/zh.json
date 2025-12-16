@@ -1,0 +1,183 @@
+{
+  "nav": {
+    "about": "关于我们",
+    "products": "产品",
+    "quality": "质量",
+    "partnership": "合作伙伴",
+    "digital": "数字解决方案",
+    "contact": "联系我们"
+  },
+  "hero": {
+    "title": "您的优质西班牙食品合作伙伴",
+    "subtitle": "面向国际市场的正宗地中海产品批量分销。Mikel's品牌或白标解决方案。",
+    "tradition": "200多年的传统",
+    "since": "始于1819年",
+    "viewCatalog": "查看产品目录",
+    "requestInfo": "申请分销信息"
+  },
+  "stats": {
+    "years": "传统年数",
+    "since1819": "始于1819年",
+    "countries": "服务国家",
+    "focusAsia": "全球覆盖",
+    "quality": "质量承诺",
+    "certified": "优质认证",
+    "hectares": "公顷",
+    "production": "生产中"
+  },
+  "about": {
+    "title": "我们的传承",
+    "subtitle": "从西班牙的心脏到世界，五代人致力于正宗的地中海风味",
+    "foundation": "创立",
+    "foundationDesc": "我们的家族在加泰罗尼亚的阿尔卡拉斯定居，开始了跨越几代人的农业卓越传统。",
+    "tradition": "持续传统",
+    "traditionDesc": "七代人保持了我们对质量的承诺，从本地市场扩展到国际市场。",
+    "recognition": "国际认可",
+    "recognitionDesc": "来自Olive Japan、World's Best Olive Oils的奖项和Eco Garden认证使我们跻身世界精英生产商行列。",
+    "alcarras": "阿尔卡拉斯，加泰罗尼亚",
+    "alcarrasDesc": "位于世界领先的核果生产地区，我们400公顷的果园受益于理想的地中海气候和数百年的专业知识。这里种植我们的优质桃子、油桃和独特的巴拉圭桃。",
+    "europeLeading": "欧洲领先的核果地区",
+    "cordoba": "科尔多瓦，安达卢西亚",
+    "cordobaDesc": "在安达卢西亚橄榄之乡的中心，我们生产获得国际赞誉的屡获殊荣的特级初榨橄榄油。我们的有机生产方法尊重土地并提供卓越的风味。",
+    "goldAward": "World's Best Olive Oils金奖"
+  },
+  "products": {
+    "title": "我们的优质产品",
+    "subtitle": "从阳光成熟的核果到屡获殊荣的橄榄油，每一款产品都体现了我们对地中海正宗性的承诺",
+    "paraguayo": {
+      "title": "糖浆巴拉圭桃",
+      "description": "一个多世纪前征服了我们心灵的扁平桃子。在阿尔卡拉斯种植，手工挑选，耐心烹饪，用爱装瓶。世界唯一生产商。",
+      "badge": "🌍 全球独家"
+    },
+    "oliveOil": {
+      "title": "特级初榨橄榄油",
+      "description": "来自科尔多瓦的屡获殊荣的有机橄榄油。在Olive Japan 2025和World's Best Olive Oils 2022 & 2024获得金奖。三个品种：阿贝奎纳、皮夸尔、奥希布兰卡。",
+      "badge": "🏆 获奖产品"
+    },
+    "temprano": {
+      "title": "早收橄榄油",
+      "description": "不适合所有人。我们喜欢它。这种由绿橄榄制成的早收油，浓郁、辛辣，带有在口中爆发的绿色果香。",
+      "badge": "🍂 限量版"
+    },
+    "nectarina": {
+      "title": "糖浆油桃",
+      "description": "没有复杂性的桃子：光滑的皮肤，浓郁的味道，明确的特征。在阿尔卡拉斯以与我们的巴拉圭桃相同的关怀种植。",
+      "badge": "✨ 手工制作"
+    },
+    "bulkTitle": "批量分销和白标可用",
+    "bulkDesc": "所有产品均可大量供应用于国际分销。我们提供Mikel's品牌产品或根据您的市场需求定制的白标解决方案。",
+    "containerLoads": "集装箱装载可用",
+    "customPackaging": "定制包装选项"
+  },
+  "signature": {
+    "badge": "世界唯一生产商",
+    "title": "巴拉圭桃 - 我们的招牌产品",
+    "description": "巴拉圭桃，也被称为扁平桃或甜甜圈桃，是一种独特的品种，具有卓越的甜度和细腻的风味。Mikel's是世界上唯一一家生产这种特殊水果糖浆的公司，使其成为挑剔市场的独家产品。",
+    "handcrafted": "手工制作",
+    "handcraftedDesc": "每个罐子都按照传统家庭方法手工制作",
+    "bestSeller": "畅销产品",
+    "bestSellerDesc": "在优质市场上国际受欢迎",
+    "quote": "以我们家族200多年来一直应用的相同关怀和奉献精神制作"
+  },
+  "quality": {
+    "title": "质量和认证",
+    "subtitle": "每一款带有Mikel's名称的产品都代表了我们对质量、正宗性和健康的坚定承诺",
+    "vegan": "素食食品",
+    "veganDesc": "适合素食饮食的100%植物性产品",
+    "gmoFree": "无转基因",
+    "gmoFreeDesc": "任何产品中都没有转基因生物",
+    "healthy": "健康食品",
+    "healthyDesc": "促进健康的天然成分",
+    "processTitle": "最少的工业加工",
+    "processDesc": "我们致力于保持Mikel's Food and Healthy产品中每一个产品的详细加工，就像我们自1819年以来一直在做的那样。从田间到罐装，我们在每一步都保持严格的质量控制。",
+    "qualityCommitment": "质量承诺",
+    "ecoGarden": "Eco Garden认证",
+    "ecoGardenDesc": "西班牙只有3家公司拥有此认证",
+    "awardsTitle": "奖项和认证",
+    "oliveJapan2022": "Olive Japan 2022",
+    "oliveJapan2024": "World's Best 2024",
+    "oliveJapan2025": "Olive Japan 2025",
+    "ecoGardenCert": "Eco Garden"
+  },
+  "supplyChain": {
+    "title": "全球供应链卓越",
+    "subtitle": "高效的物流和专门的服务确保您的产品到达亚洲、欧洲和美洲",
+    "logistics": "国际物流",
+    "logisticsDesc": "高效运输到所有主要港口",
+    "standards": "质量标准",
+    "standardsDesc": "满足国际食品安全要求",
+    "partnership": "可靠的合作伙伴关系",
+    "partnershipDesc": "为您的业务增长提供专门支持",
+    "exportTitle": "我们的出口能力",
+    "container": "集装箱运输",
+    "containerDesc": "整箱和拼箱装载",
+    "coldChain": "冷链",
+    "coldChainDesc": "温控物流",
+    "documentation": "文档",
+    "documentationDesc": "完整的出口文件",
+    "customOrders": "定制订单",
+    "customOrdersDesc": "为您的市场量身定制的解决方案"
+  },
+  "partnership": {
+    "title": "您成功的战略合作伙伴",
+    "uniqueProducts": "独特产品",
+    "uniqueProductsDesc": "世界唯一的糖浆巴拉圭桃",
+    "qualityAssured": "质量保证",
+    "qualityAssuredDesc": "认证的优质产品",
+    "yearsExperience": "200多年",
+    "yearsExperienceDesc": "自1819年以来经过验证的传统",
+    "fullSupport": "全面支持",
+    "fullSupportDesc": "专门的客户服务",
+    "buildPartnership": "让我们建立成功的合作伙伴关系",
+    "partnershipDesc": "Farms Planet致力于通过正宗的西班牙产品、可靠的供应和卓越的服务支持您在欧洲、中东(阿联酋)和亚洲的成功。已在韩国、日本和台湾开展业务。",
+    "whiteLabel": "🏷️ 白标解决方案可用",
+    "whiteLabelDesc": "我们为希望用我们的优质西班牙产品建立自己品牌的分销商提供自有品牌制造。您的品牌，我们200年的专业知识。",
+    "ecommerce": "电子商务就绪",
+    "ecommerceDesc": "为您的市场提供自己的Mikel's在线商店"
+  },
+  "digitalPartnership": {
+    "title": "您的完整数字解决方案",
+    "subtitle": "作为Farms Planet的分销商，您不仅获得优质产品，还获得一个准备在您的市场上销售的交钥匙电子商务平台",
+    "feature1": "个性化在线商店",
+    "feature1Desc": "具有本地域名、语言和货币的全功能电子商务网站",
+    "feature2": "产品目录",
+    "feature2Desc": "包含专业摄影、描述和营养信息的完整目录",
+    "feature3": "支付集成",
+    "feature3Desc": "为您的国家配置的本地支付方式和运输选项",
+    "feature4": "营销支持",
+    "feature4Desc": "SEO优化、社交媒体资产和数字营销材料",
+    "exampleTitle": "实际查看",
+    "exampleDesc": "访问我们的西班牙市场商店，查看您的客户将享受的完整体验",
+    "visitDemo": "访问演示商店: mikels.es",
+    "requestStore": "申请您的个性化商店"
+  },
+  "contact": {
+    "title": "开始您的分销合作伙伴关系",
+    "subtitle": "联系我们的国际销售团队，讨论批量订单、白标解决方案和分销机会",
+    "bulkPricing": "批量定价可用",
+    "whiteLabelOptions": "白标选项",
+    "asiaExpertise": "全球市场专业知识",
+    "companyName": "公司名称",
+    "contactPerson": "联系人",
+    "email": "电子邮件",
+    "phone": "电话",
+    "country": "国家",
+    "productInterest": "感兴趣的产品",
+    "productPlaceholder": "巴拉圭桃、橄榄油、白标等",
+    "message": "留言",
+    "messagePlaceholder": "告诉我们您的分销需求、目标市场、预估量和任何特定要求...",
+    "requestCatalog": "申请包含批量定价的完整产品目录",
+    "submit": "申请分销信息",
+    "directContact": "直接联系",
+    "ceo": "首席执行官",
+    "sales": "销售",
+    "successMessage": "感谢您的关注！我们很快会与您联系。"
+  },
+  "footer": {
+    "description": "拥有200多年传统的优质西班牙食品。您值得信赖的正宗地中海卓越合作伙伴。",
+    "quickLinks": "快速链接",
+    "contact": "联系我们",
+    "rights": "版权所有。",
+    "tagline": "优质西班牙食品"
+  }
+}

@@ -79,3 +79,15 @@
 - [x] Capturar screenshot de mikels.es
 - [x] Reemplazar placeholder con screenshot real de mikels.es
 - [x] Añadir traducciones para nuevo item del menú
+
+## Traducciones Multiidioma (FR, KO, JA, ZH, AR)
+- [x] Crear archivo de traducción francés (fr.json)
+- [x] Crear archivo de traducción coreano (ko.json)
+- [x] Crear archivo de traducción japonés (ja.json)
+- [x] Crear archivo de traducción chino (zh.json)
+- [x] Crear archivo de traducción árabe (ar.json)
+- [x] Configurar i18n para soportar los 5 nuevos idiomas
+- [x] Implementar soporte RTL para árabe
+- [x] Actualizar LanguageSelector con todos los idiomas y banderas
+- [x] Testing de todos los idiomas
+- [ ] Crear checkpoint final

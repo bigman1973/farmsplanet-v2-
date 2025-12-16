@@ -1,0 +1,183 @@
+{
+  "nav": {
+    "about": "회사 소개",
+    "products": "제품",
+    "quality": "품질",
+    "partnership": "파트너십",
+    "digital": "디지털 솔루션",
+    "contact": "연락처"
+  },
+  "hero": {
+    "title": "프리미엄 스페인 식품 파트너",
+    "subtitle": "국제 시장을 위한 정통 지중해 제품의 대량 유통. Mikel's 브랜드 또는 자체 브랜드 솔루션.",
+    "tradition": "200년 이상의 전통",
+    "since": "1819년부터",
+    "viewCatalog": "제품 카탈로그 보기",
+    "requestInfo": "유통 정보 요청"
+  },
+  "stats": {
+    "years": "전통의 세월",
+    "since1819": "1819년부터",
+    "countries": "서비스 국가",
+    "focusAsia": "글로벌 진출",
+    "quality": "품질 약속",
+    "certified": "프리미엄 인증",
+    "hectares": "헥타르",
+    "production": "생산 중"
+  },
+  "about": {
+    "title": "우리의 유산",
+    "subtitle": "스페인의 심장부에서 세계로, 정통 지중해 풍미에 헌신한 5세대",
+    "foundation": "창립",
+    "foundationDesc": "우리 가족은 카탈루냐의 알카라스에 정착하여 여러 세대에 걸쳐 이어질 농업 우수성의 유산을 시작했습니다.",
+    "tradition": "지속된 전통",
+    "traditionDesc": "7세대가 품질에 대한 우리의 약속을 유지하며 지역 시장에서 국제적 입지로 확장했습니다.",
+    "recognition": "국제적 인정",
+    "recognitionDesc": "Olive Japan, World's Best Olive Oils 수상 및 Eco Garden 인증으로 세계 엘리트 생산자 반열에 올랐습니다.",
+    "alcarras": "알카라스, 카탈루냐",
+    "alcarrasDesc": "세계 최고의 핵과류 생산 지역에 위치한 400헥타르의 과수원은 이상적인 지중해 기후와 수세기의 전문 지식의 혜택을 받습니다. 여기서 프리미엄 복숭아, 천도복숭아, 독특한 파라과요를 재배합니다.",
+    "europeLeading": "유럽 최고의 핵과류 지역",
+    "cordoba": "코르도바, 안달루시아",
+    "cordobaDesc": "안달루시아 올리브 지역의 중심부에서 국제적 찬사를 받은 수상 경력의 엑스트라 버진 올리브 오일을 생산합니다. 우리의 유기농 생산 방식은 땅을 존중하고 뛰어난 풍미를 제공합니다.",
+    "goldAward": "World's Best Olive Oils 금상"
+  },
+  "products": {
+    "title": "프리미엄 제품",
+    "subtitle": "햇볕에 익은 핵과류부터 수상 경력의 올리브 오일까지, 모든 제품은 지중해 정통성에 대한 우리의 약속을 구현합니다",
+    "paraguayo": {
+      "title": "시럽 파라과요",
+      "description": "한 세기 전 우리의 마음을 사로잡은 납작 복숭아. 알카라스에서 재배되고 손으로 선별되며 정성껏 조리되어 사랑으로 병에 담깁니다. 세계 유일 생산자.",
+      "badge": "🌍 세계 독점"
+    },
+    "oliveOil": {
+      "title": "엑스트라 버진 올리브 오일",
+      "description": "코르도바의 수상 경력 유기농 올리브 오일. Olive Japan 2025 및 World's Best Olive Oils 2022 & 2024 금메달 수상. 세 가지 품종: 아르베키나, 피쿠알, 호지블랑카.",
+      "badge": "🏆 수상작"
+    },
+    "temprano": {
+      "title": "조기 수확 올리브 오일",
+      "description": "모두를 위한 것은 아닙니다. 그리고 우리는 그것을 좋아합니다. 녹색 올리브로 만든 이 조기 수확 오일은 강렬하고 매콤하며 입안에서 폭발하는 녹색 과일향이 있습니다.",
+      "badge": "🍂 한정판"
+    },
+    "nectarina": {
+      "title": "시럽 천도복숭아",
+      "description": "복잡함 없는 복숭아: 매끄러운 껍질, 강렬한 맛, 뚜렷한 특성. 파라과요와 같은 정성으로 알카라스에서 재배됩니다.",
+      "badge": "✨ 수제"
+    },
+    "bulkTitle": "대량 유통 및 자체 브랜드 가능",
+    "bulkDesc": "국제 유통을 위한 대량으로 모든 제품을 이용할 수 있습니다. 시장 요구에 맞춘 Mikel's 브랜드 제품 또는 자체 브랜드 솔루션을 제공합니다.",
+    "containerLoads": "컨테이너 적재 가능",
+    "customPackaging": "맞춤 포장 옵션"
+  },
+  "signature": {
+    "badge": "세계 유일 생산자",
+    "title": "파라과요 - 시그니처 제품",
+    "description": "납작 복숭아 또는 도넛 복숭아로도 알려진 파라과요는 뛰어난 단맛과 섬세한 풍미를 가진 독특한 품종입니다. Mikel's는 이 특별한 과일을 시럽에 담아 생산하는 세계 유일의 회사로, 까다로운 시장을 위한 독점 제품입니다.",
+    "handcrafted": "수제",
+    "handcraftedDesc": "전통적인 가족 방식에 따라 손으로 만든 각 병",
+    "bestSeller": "베스트셀러",
+    "bestSellerDesc": "프리미엄 시장에서 국제적으로 인기",
+    "quote": "우리 가족이 200년 이상 적용해 온 동일한 정성과 헌신으로 만들어졌습니다"
+  },
+  "quality": {
+    "title": "품질 및 인증",
+    "subtitle": "Mikel's 이름을 가진 모든 제품은 품질, 정통성 및 건강에 대한 우리의 변함없는 헌신을 나타냅니다",
+    "vegan": "비건 식품",
+    "veganDesc": "비건 식단에 적합한 100% 식물성 제품",
+    "gmoFree": "GMO 무함유",
+    "gmoFreeDesc": "어떤 제품에도 유전자 변형 유기체 없음",
+    "healthy": "건강 식품",
+    "healthyDesc": "웰빙을 촉진하는 천연 성분",
+    "processTitle": "최소 산업 가공",
+    "processDesc": "1819년부터 해온 것처럼 Mikel's Food and Healthy 제품 각각에 대한 세밀한 가공을 유지하려는 우리의 약속. 밭에서 병까지 모든 단계에서 엄격한 품질 관리를 유지합니다.",
+    "qualityCommitment": "품질 약속",
+    "ecoGarden": "Eco Garden 인증",
+    "ecoGardenDesc": "스페인에서 단 3개 회사만 이 인증을 보유",
+    "awardsTitle": "수상 및 인증",
+    "oliveJapan2022": "Olive Japan 2022",
+    "oliveJapan2024": "World's Best 2024",
+    "oliveJapan2025": "Olive Japan 2025",
+    "ecoGardenCert": "Eco Garden"
+  },
+  "supplyChain": {
+    "title": "글로벌 공급망 우수성",
+    "subtitle": "효율적인 물류와 전담 서비스로 아시아, 유럽 및 미주에 제품이 도착하도록 보장합니다",
+    "logistics": "국제 물류",
+    "logisticsDesc": "모든 주요 항구로 효율적인 배송",
+    "standards": "품질 기준",
+    "standardsDesc": "국제 식품 안전 요구 사항 충족",
+    "partnership": "신뢰할 수 있는 파트너십",
+    "partnershipDesc": "비즈니스 성장을 위한 전담 지원",
+    "exportTitle": "수출 역량",
+    "container": "컨테이너 배송",
+    "containerDesc": "전체 및 부분 컨테이너 적재",
+    "coldChain": "콜드 체인",
+    "coldChainDesc": "온도 제어 물류",
+    "documentation": "문서화",
+    "documentationDesc": "완전한 수출 서류",
+    "customOrders": "맞춤 주문",
+    "customOrdersDesc": "시장에 맞춤화된 솔루션"
+  },
+  "partnership": {
+    "title": "성공을 위한 전략적 파트너",
+    "uniqueProducts": "독특한 제품",
+    "uniqueProductsDesc": "세계 유일의 시럽 파라과요",
+    "qualityAssured": "품질 보증",
+    "qualityAssuredDesc": "인증된 프리미엄 제품",
+    "yearsExperience": "200년 이상",
+    "yearsExperienceDesc": "1819년부터 입증된 전통",
+    "fullSupport": "완전한 지원",
+    "fullSupportDesc": "전담 고객 서비스",
+    "buildPartnership": "성공적인 파트너십을 구축합시다",
+    "partnershipDesc": "Farms Planet은 정통 스페인 제품, 안정적인 공급 및 탁월한 서비스로 유럽, 중동(UAE) 및 아시아에서의 성공을 지원하기 위해 최선을 다하고 있습니다. 한국, 일본, 대만에 이미 진출했습니다.",
+    "whiteLabel": "🏷️ 자체 브랜드 솔루션 가능",
+    "whiteLabelDesc": "프리미엄 스페인 제품으로 자체 브랜드를 구축하려는 유통업체를 위한 자체 상표 제조를 제공합니다. 귀하의 브랜드, 우리의 200년 전문성.",
+    "ecommerce": "전자상거래 준비 완료",
+    "ecommerceDesc": "귀하의 시장을 위한 자체 Mikel's 온라인 스토어"
+  },
+  "digitalPartnership": {
+    "title": "완전한 디지털 솔루션",
+    "subtitle": "Farms Planet 유통업체로서 프리미엄 제품만 받는 것이 아니라 시장에서 판매할 준비가 된 턴키 전자상거래 플랫폼을 얻습니다",
+    "feature1": "맞춤형 온라인 스토어",
+    "feature1Desc": "현지 도메인, 언어 및 통화를 갖춘 완전한 기능의 전자상거래 웹사이트",
+    "feature2": "제품 카탈로그",
+    "feature2Desc": "전문 사진, 설명 및 영양 정보가 포함된 완전한 카탈로그",
+    "feature3": "결제 통합",
+    "feature3Desc": "귀하의 국가에 맞게 구성된 현지 결제 방법 및 배송 옵션",
+    "feature4": "마케팅 지원",
+    "feature4Desc": "SEO 최적화, 소셜 미디어 자산 및 디지털 마케팅 자료",
+    "exampleTitle": "실제로 보기",
+    "exampleDesc": "스페인 시장 스토어를 방문하여 고객이 즐길 완전한 경험을 확인하세요",
+    "visitDemo": "데모 스토어 방문: mikels.es",
+    "requestStore": "맞춤형 스토어 요청"
+  },
+  "contact": {
+    "title": "유통 파트너십 시작",
+    "subtitle": "대량 주문, 자체 브랜드 솔루션 및 유통 기회에 대해 논의하려면 국제 영업팀에 문의하세요",
+    "bulkPricing": "대량 가격 가능",
+    "whiteLabelOptions": "자체 브랜드 옵션",
+    "asiaExpertise": "글로벌 시장 전문성",
+    "companyName": "회사명",
+    "contactPerson": "담당자",
+    "email": "이메일",
+    "phone": "전화",
+    "country": "국가",
+    "productInterest": "관심 제품",
+    "productPlaceholder": "파라과요, 올리브 오일, 자체 브랜드 등",
+    "message": "메시지",
+    "messagePlaceholder": "유통 요구 사항, 목표 시장, 예상 물량 및 특정 요구 사항에 대해 알려주세요...",
+    "requestCatalog": "대량 가격이 포함된 전체 제품 카탈로그 요청",
+    "submit": "유통 정보 요청",
+    "directContact": "직접 연락",
+    "ceo": "CEO",
+    "sales": "영업",
+    "successMessage": "관심을 가져 주셔서 감사합니다! 곧 연락드리겠습니다."
+  },
+  "footer": {
+    "description": "200년 이상의 전통을 가진 프리미엄 스페인 식품. 정통 지중해 우수성을 위한 신뢰할 수 있는 파트너.",
+    "quickLinks": "빠른 링크",
+    "contact": "연락처",
+    "rights": "모든 권리 보유.",
+    "tagline": "프리미엄 스페인 식품"
+  }
+}

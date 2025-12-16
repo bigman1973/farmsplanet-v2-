@@ -2,26 +2,31 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import en from './locales/en.json';
 import es from './locales/es.json';
+import fr from './locales/fr.json';
+import ko from './locales/ko.json';
+import ja from './locales/ja.json';
+import zh from './locales/zh.json';
+import ar from './locales/ar.json';
 
-// Idiomas disponibles actualmente
+// Idiomas disponibles
 export const availableLanguages = [
-  { code: 'en', name: 'English', flag: '🇬🇧' },
-  { code: 'es', name: 'Español', flag: '🇪🇸' },
-];
-
-// Idiomas planificados para el futuro
-export const plannedLanguages = [
-  { code: 'de', name: 'Deutsch', flag: '🇩🇪' },
-  { code: 'fr', name: 'Français', flag: '🇫🇷' },
-  { code: 'ja', name: '日本語', flag: '🇯🇵' },
-  { code: 'ko', name: '한국어', flag: '🇰🇷' },
-  { code: 'zh', name: '中文', flag: '🇨🇳' },
-  { code: 'ar', name: 'العربية', flag: '🇦🇪' },
+  { code: 'en', name: 'English', flag: '🇬🇧', dir: 'ltr' },
+  { code: 'es', name: 'Español', flag: '🇪🇸', dir: 'ltr' },
+  { code: 'fr', name: 'Français', flag: '🇫🇷', dir: 'ltr' },
+  { code: 'ko', name: '한국어', flag: '🇰🇷', dir: 'ltr' },
+  { code: 'ja', name: '日本語', flag: '🇯🇵', dir: 'ltr' },
+  { code: 'zh', name: '中文', flag: '🇨🇳', dir: 'ltr' },
+  { code: 'ar', name: 'العربية', flag: '🇦🇪', dir: 'rtl' },
 ];
 
 const resources = {
   en: { translation: en },
   es: { translation: es },
+  fr: { translation: fr },
+  ko: { translation: ko },
+  ja: { translation: ja },
+  zh: { translation: zh },
+  ar: { translation: ar },
 };
 
 // Detectar idioma del navegador o usar inglés por defecto
@@ -40,5 +45,21 @@ i18n
       escapeValue: false,
     },
   });
+
+// Configurar dirección del texto según el idioma
+i18n.on('languageChanged', (lng) => {
+  const language = availableLanguages.find(l => l.code === lng);
+  if (language) {
+    document.documentElement.dir = language.dir;
+    document.documentElement.lang = lng;
+  }
+});
+
+// Establecer dirección inicial
+const initialLanguage = availableLanguages.find(l => l.code === i18n.language);
+if (initialLanguage) {
+  document.documentElement.dir = initialLanguage.dir;
+  document.documentElement.lang = i18n.language;
+}
 
 export default i18n;

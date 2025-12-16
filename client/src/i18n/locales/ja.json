@@ -1,0 +1,183 @@
+{
+  "nav": {
+    "about": "会社概要",
+    "products": "製品",
+    "quality": "品質",
+    "partnership": "パートナーシップ",
+    "digital": "デジタルソリューション",
+    "contact": "お問い合わせ"
+  },
+  "hero": {
+    "title": "プレミアムスペイン食品パートナー",
+    "subtitle": "国際市場向けの本格的な地中海製品の大量流通。Mikel'sブランドまたはホワイトラベルソリューション。",
+    "tradition": "200年以上の伝統",
+    "since": "1819年から",
+    "viewCatalog": "製品カタログを見る",
+    "requestInfo": "流通情報をリクエスト"
+  },
+  "stats": {
+    "years": "伝統の年数",
+    "since1819": "1819年から",
+    "countries": "サービス提供国",
+    "focusAsia": "グローバル展開",
+    "quality": "品質へのコミットメント",
+    "certified": "プレミアム認証",
+    "hectares": "ヘクタール",
+    "production": "生産中"
+  },
+  "about": {
+    "title": "私たちの遺産",
+    "subtitle": "スペインの中心から世界へ、本格的な地中海の風味に捧げられた5世代",
+    "foundation": "創業",
+    "foundationDesc": "私たちの家族はカタルーニャのアルカラスに定住し、何世代にもわたって続く農業の卓越性の遺産を始めました。",
+    "tradition": "継続された伝統",
+    "traditionDesc": "7世代が品質への私たちのコミットメントを維持し、地元市場から国際的なプレゼンスへと拡大しました。",
+    "recognition": "国際的な評価",
+    "recognitionDesc": "Olive Japan、World's Best Olive Oils、Eco Garden認証により、世界のエリート生産者の仲間入りを果たしました。",
+    "alcarras": "アルカラス、カタルーニャ",
+    "alcarrasDesc": "世界有数の核果生産地域に位置する400ヘクタールの果樹園は、理想的な地中海性気候と何世紀にもわたる専門知識の恩恵を受けています。ここでプレミアム桃、ネクタリン、ユニークなパラグアヨを栽培しています。",
+    "europeLeading": "ヨーロッパ有数の核果地域",
+    "cordoba": "コルドバ、アンダルシア",
+    "cordobaDesc": "アンダルシアのオリーブの国の中心部で、国際的な称賛を得た受賞歴のあるエクストラバージンオリーブオイルを生産しています。私たちの有機生産方法は土地を尊重し、卓越した風味を提供します。",
+    "goldAward": "World's Best Olive Oils金賞"
+  },
+  "products": {
+    "title": "プレミアム製品",
+    "subtitle": "太陽で熟した核果から受賞歴のあるオリーブオイルまで、すべての製品は地中海の本物へのコミットメントを体現しています",
+    "paraguayo": {
+      "title": "シロップ漬けパラグアヨ",
+      "description": "1世紀以上前に私たちの心を征服した平たい桃。アルカラスで栽培され、手で選別され、丁寧に調理され、愛情を込めて瓶詰めされます。世界唯一の生産者。",
+      "badge": "🌍 世界独占"
+    },
+    "oliveOil": {
+      "title": "エクストラバージンオリーブオイル",
+      "description": "コルドバの受賞歴のある有機オリーブオイル。Olive Japan 2025およびWorld's Best Olive Oils 2022 & 2024で金メダル受賞。3つの品種：アルベキーナ、ピクアル、オヒブランカ。",
+      "badge": "🏆 受賞作"
+    },
+    "temprano": {
+      "title": "早摘みオリーブオイル",
+      "description": "すべての人向けではありません。そして私たちはそれが大好きです。緑のオリーブから作られたこの早摘みオイルは、強烈でスパイシーで、口の中で爆発する緑のフルーティーさがあります。",
+      "badge": "🍂 限定版"
+    },
+    "nectarina": {
+      "title": "シロップ漬けネクタリン",
+      "description": "複雑さのない桃：滑らかな皮、強烈な味、明確なキャラクター。パラグアヨと同じケアでアルカラスで栽培されています。",
+      "badge": "✨ 職人技"
+    },
+    "bulkTitle": "大量流通とホワイトラベル対応",
+    "bulkDesc": "国際流通のための大量ですべての製品を利用できます。市場のニーズに合わせたMikel'sブランド製品またはホワイトラベルソリューションを提供します。",
+    "containerLoads": "コンテナ積載可能",
+    "customPackaging": "カスタムパッケージングオプション"
+  },
+  "signature": {
+    "badge": "世界唯一の生産者",
+    "title": "パラグアヨ - シグネチャー製品",
+    "description": "平たい桃またはドーナツピーチとしても知られるパラグアヨは、卓越した甘さと繊細な風味を持つユニークな品種です。Mikel'sは、この特別な果物をシロップ漬けで生産する世界で唯一の会社であり、厳選された市場向けの独占的な製品です。",
+    "handcrafted": "手作り",
+    "handcraftedDesc": "伝統的な家族の方法に従って手作りされた各瓶",
+    "bestSeller": "ベストセラー",
+    "bestSellerDesc": "プレミアム市場で国際的に人気",
+    "quote": "私たちの家族が200年以上適用してきたのと同じケアと献身で作られています"
+  },
+  "quality": {
+    "title": "品質と認証",
+    "subtitle": "Mikel'sの名前を冠したすべての製品は、品質、本物、健康への私たちの揺るぎない献身を表しています",
+    "vegan": "ビーガンフード",
+    "veganDesc": "ビーガンダイエットに適した100%植物ベースの製品",
+    "gmoFree": "GMOフリー",
+    "gmoFreeDesc": "どの製品にも遺伝子組み換え生物なし",
+    "healthy": "ヘルシーフード",
+    "healthyDesc": "ウェルネスを促進する天然成分",
+    "processTitle": "最小限の工業加工",
+    "processDesc": "1819年から行ってきたように、Mikel's Food and Healthy製品のそれぞれにおける詳細な加工を維持するという私たちのコミットメント。畑から瓶まで、すべてのステップで厳格な品質管理を維持しています。",
+    "qualityCommitment": "品質へのコミットメント",
+    "ecoGarden": "Eco Garden認証",
+    "ecoGardenDesc": "スペインでこの認証を保持しているのは3社のみ",
+    "awardsTitle": "賞と認証",
+    "oliveJapan2022": "Olive Japan 2022",
+    "oliveJapan2024": "World's Best 2024",
+    "oliveJapan2025": "Olive Japan 2025",
+    "ecoGardenCert": "Eco Garden"
+  },
+  "supplyChain": {
+    "title": "グローバルサプライチェーンの卓越性",
+    "subtitle": "効率的な物流と専任サービスにより、アジア、ヨーロッパ、アメリカへの製品到着を保証します",
+    "logistics": "国際物流",
+    "logisticsDesc": "すべての主要港への効率的な配送",
+    "standards": "品質基準",
+    "standardsDesc": "国際食品安全要件を満たす",
+    "partnership": "信頼できるパートナーシップ",
+    "partnershipDesc": "ビジネスの成長のための専任サポート",
+    "exportTitle": "輸出能力",
+    "container": "コンテナ配送",
+    "containerDesc": "フルおよびパーシャルコンテナ積載",
+    "coldChain": "コールドチェーン",
+    "coldChainDesc": "温度管理された物流",
+    "documentation": "文書化",
+    "documentationDesc": "完全な輸出書類",
+    "customOrders": "カスタム注文",
+    "customOrdersDesc": "市場に合わせたソリューション"
+  },
+  "partnership": {
+    "title": "成功のための戦略的パートナー",
+    "uniqueProducts": "ユニークな製品",
+    "uniqueProductsDesc": "世界唯一のシロップ漬けパラグアヨ",
+    "qualityAssured": "品質保証",
+    "qualityAssuredDesc": "認証されたプレミアム製品",
+    "yearsExperience": "200年以上",
+    "yearsExperienceDesc": "1819年から実証された伝統",
+    "fullSupport": "完全なサポート",
+    "fullSupportDesc": "専任カスタマーサービス",
+    "buildPartnership": "成功したパートナーシップを構築しましょう",
+    "partnershipDesc": "Farms Planetは、本格的なスペイン製品、信頼できる供給、卓越したサービスで、ヨーロッパ、中東(UAE)、アジアでの成功をサポートすることに尽力しています。韓国、日本、台湾にすでに進出しています。",
+    "whiteLabel": "🏷️ ホワイトラベルソリューション対応",
+    "whiteLabelDesc": "プレミアムスペイン製品で独自のブランドを構築したい流通業者向けのプライベートラベル製造を提供しています。あなたのブランド、私たちの200年の専門知識。",
+    "ecommerce": "eコマース対応",
+    "ecommerceDesc": "あなたの市場向けの独自のMikel'sオンラインストア"
+  },
+  "digitalPartnership": {
+    "title": "完全なデジタルソリューション",
+    "subtitle": "Farms Planetの流通業者として、プレミアム製品だけでなく、市場で販売する準備ができたターンキーeコマースプラットフォームを手に入れます",
+    "feature1": "パーソナライズされたオンラインストア",
+    "feature1Desc": "現地のドメイン、言語、通貨を備えた完全に機能するeコマースウェブサイト",
+    "feature2": "製品カタログ",
+    "feature2Desc": "プロの写真、説明、栄養情報を含む完全なカタログ",
+    "feature3": "決済統合",
+    "feature3Desc": "あなたの国に合わせて設定された現地の決済方法と配送オプション",
+    "feature4": "マーケティングサポート",
+    "feature4Desc": "SEO最適化、ソーシャルメディアアセット、デジタルマーケティング資料",
+    "exampleTitle": "実際に見る",
+    "exampleDesc": "スペイン市場のストアを訪問して、お客様が楽しむ完全な体験を確認してください",
+    "visitDemo": "デモストアを訪問: mikels.es",
+    "requestStore": "パーソナライズされたストアをリクエスト"
+  },
+  "contact": {
+    "title": "流通パートナーシップを開始",
+    "subtitle": "大量注文、ホワイトラベルソリューション、流通機会について議論するために、国際営業チームに連絡してください",
+    "bulkPricing": "大量価格対応",
+    "whiteLabelOptions": "ホワイトラベルオプション",
+    "asiaExpertise": "グローバル市場の専門知識",
+    "companyName": "会社名",
+    "contactPerson": "担当者",
+    "email": "メール",
+    "phone": "電話",
+    "country": "国",
+    "productInterest": "興味のある製品",
+    "productPlaceholder": "パラグアヨ、オリーブオイル、ホワイトラベルなど",
+    "message": "メッセージ",
+    "messagePlaceholder": "流通ニーズ、ターゲット市場、推定量、特定の要件について教えてください...",
+    "requestCatalog": "大量価格を含む完全な製品カタログをリクエスト",
+    "submit": "流通情報をリクエスト",
+    "directContact": "直接連絡",
+    "ceo": "CEO",
+    "sales": "営業",
+    "successMessage": "ご興味をお持ちいただきありがとうございます！すぐにご連絡いたします。"
+  },
+  "footer": {
+    "description": "200年以上の伝統を持つプレミアムスペイン食品。本格的な地中海の卓越性のための信頼できるパートナー。",
+    "quickLinks": "クイックリンク",
+    "contact": "お問い合わせ",
+    "rights": "全著作権所有。",
+    "tagline": "プレミアムスペイン食品"
+  }
+}
