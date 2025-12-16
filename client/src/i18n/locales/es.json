@@ -130,7 +130,25 @@
     "buildPartnership": "Construyamos una Colaboración Exitosa",
     "partnershipDesc": "Farms Planet está comprometido a apoyar tu éxito en Europa, Oriente Medio (EAU) y Asia con productos españoles auténticos, suministro fiable y servicio excepcional. Ya presentes en Corea, Japón y Taiwán.",
     "whiteLabel": "🏷️ Soluciones de Marca Blanca Disponibles",
-    "whiteLabelDesc": "Ofrecemos fabricación de marca privada para distribuidores que quieren construir su propia marca con nuestros productos españoles premium. Tu marca, nuestra experiencia de 200 años."
+    "whiteLabelDesc": "Ofrecemos fabricación de marca privada para distribuidores que quieren construir su propia marca con nuestros productos españoles premium. Tu marca, nuestra experiencia de 200 años.",
+    "ecommerce": "E-commerce Incluido",
+    "ecommerceDesc": "Tu propia tienda online Mikel's para tu mercado"
+  },
+  "digitalPartnership": {
+    "title": "Tu Solución Digital Completa",
+    "subtitle": "Como distribuidor de Farms Planet, no solo recibes productos premium—obtienes una plataforma de e-commerce lista para vender en tu mercado",
+    "feature1": "Tienda Online Personalizada",
+    "feature1Desc": "Sitio web de e-commerce completamente funcional con tu dominio local, idioma y moneda",
+    "feature2": "Catálogo de Productos",
+    "feature2Desc": "Catálogo completo con fotografía profesional, descripciones e información nutricional",
+    "feature3": "Integración de Pagos",
+    "feature3Desc": "Métodos de pago locales y opciones de envío configuradas para tu país",
+    "feature4": "Soporte de Marketing",
+    "feature4Desc": "Optimización SEO, recursos para redes sociales y materiales de marketing digital",
+    "exampleTitle": "Vélo en Acción",
+    "exampleDesc": "Visita nuestra tienda del mercado español para ver la experiencia completa que disfrutarán tus clientes",
+    "visitDemo": "Visitar Tienda Demo: mikels.es",
+    "requestStore": "Solicita Tu Tienda Personalizada"
   },
   "contact": {
     "title": "Inicia tu Colaboración de Distribución",

@@ -130,7 +130,25 @@
     "buildPartnership": "Let's Build a Successful Partnership",
     "partnershipDesc": "Farms Planet is committed to supporting your success in Europe, Middle East (UAE), and Asia with authentic Spanish products, reliable supply, and exceptional service. Already present in Korea, Japan, and Taiwan.",
     "whiteLabel": "🏷️ White Label Solutions Available",
-    "whiteLabelDesc": "We offer private label manufacturing for distributors who want to build their own brand with our premium Spanish products. Your brand, our 200-year expertise."
+    "whiteLabelDesc": "We offer private label manufacturing for distributors who want to build their own brand with our premium Spanish products. Your brand, our 200-year expertise.",
+    "ecommerce": "E-commerce Ready",
+    "ecommerceDesc": "Your own Mikel's online store for your market"
+  },
+  "digitalPartnership": {
+    "title": "Your Complete Digital Solution",
+    "subtitle": "As a Farms Planet distributor, you don't just receive premium products—you get a turnkey e-commerce platform ready to sell in your market",
+    "feature1": "Personalized Online Store",
+    "feature1Desc": "Fully functional e-commerce website with your local domain, language, and currency",
+    "feature2": "Product Catalog",
+    "feature2Desc": "Complete catalog with professional photography, descriptions, and nutritional information",
+    "feature3": "Payment Integration",
+    "feature3Desc": "Local payment methods and shipping options configured for your country",
+    "feature4": "Marketing Support",
+    "feature4Desc": "SEO optimization, social media assets, and digital marketing materials",
+    "exampleTitle": "See It In Action",
+    "exampleDesc": "Visit our Spanish market store to see the complete experience your customers will enjoy",
+    "visitDemo": "Visit Demo Store: mikels.es",
+    "requestStore": "Request Your Personalized Store"
   },
   "contact": {
     "title": "Start Your Distribution Partnership",

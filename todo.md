@@ -60,3 +60,10 @@
 - [x] Aumentar tamaño de letras del header/navbar
 - [x] Actualizar enfoque geográfico: Europa y Emiratos Árabes como nuevos mercados objetivo
 - [x] Mantener Asia (Japón, Corea, Taiwán) como mercados donde ya están presentes
+
+## Digital Partnership Feature
+- [x] Crear sección dedicada "Digital Partnership" explicando tienda online personalizada
+- [x] Añadir beneficio de e-commerce en "Partnership Benefits"
+- [x] Incluir link a mikels.es como ejemplo funcional
+- [x] Añadir traducciones en inglés y español
+- [ ] Diseñar mockup o screenshot de ejemplo de tienda
