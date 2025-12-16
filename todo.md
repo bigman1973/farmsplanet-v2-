@@ -55,3 +55,8 @@
 - [x] Preparar estructura para idiomas futuros (DE, FR, JA, KO, ZH, AR)
 - [x] Testing multiidioma
 - [x] Crear checkpoint final
+
+## Ajustes de Diseño y Mercados
+- [x] Aumentar tamaño de letras del header/navbar
+- [x] Actualizar enfoque geográfico: Europa y Emiratos Árabes como nuevos mercados objetivo
+- [x] Mantener Asia (Japón, Corea, Taiwán) como mercados donde ya están presentes

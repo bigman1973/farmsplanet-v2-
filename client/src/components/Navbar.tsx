@@ -25,10 +25,10 @@ export default function Navbar() {
           <div className="flex items-center gap-3 cursor-pointer" onClick={() => scrollToSection("hero")}>
             <img src={APP_LOGO} alt="Farms Planet" className="h-12 w-auto" />
             <div className="hidden sm:block">
-              <div className="font-bold text-lg text-foreground" style={{ fontFamily: "'Playfair Display', serif" }}>
+              <div className="font-bold text-xl text-foreground" style={{ fontFamily: "'Playfair Display', serif" }}>
                 FARMS PLANET
               </div>
-              <div className="text-xs text-muted-foreground">Premium Spanish Food</div>
+              <div className="text-sm text-muted-foreground">Premium Spanish Food</div>
             </div>
           </div>
 
@@ -36,25 +36,25 @@ export default function Navbar() {
           <div className="hidden lg:flex items-center gap-6">
             <button
               onClick={() => scrollToSection("about")}
-              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+              className="text-base font-medium text-foreground hover:text-primary transition-colors"
             >
               {t('nav.about')}
             </button>
             <button
               onClick={() => scrollToSection("products")}
-              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+              className="text-base font-medium text-foreground hover:text-primary transition-colors"
             >
               {t('nav.products')}
             </button>
             <button
               onClick={() => scrollToSection("quality")}
-              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+              className="text-base font-medium text-foreground hover:text-primary transition-colors"
             >
               {t('nav.quality')}
             </button>
             <button
               onClick={() => scrollToSection("partnership")}
-              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+              className="text-base font-medium text-foreground hover:text-primary transition-colors"
             >
               {t('nav.partnership')}
             </button>
@@ -85,25 +85,25 @@ export default function Navbar() {
             <div className="flex flex-col gap-4">
               <button
                 onClick={() => scrollToSection("about")}
-                className="text-left text-sm font-medium text-foreground hover:text-primary transition-colors py-2"
+                className="text-left text-base font-medium text-foreground hover:text-primary transition-colors py-2"
               >
                 {t('nav.about')}
               </button>
               <button
                 onClick={() => scrollToSection("products")}
-                className="text-left text-sm font-medium text-foreground hover:text-primary transition-colors py-2"
+                className="text-left text-base font-medium text-foreground hover:text-primary transition-colors py-2"
               >
                 {t('nav.products')}
               </button>
               <button
                 onClick={() => scrollToSection("quality")}
-                className="text-left text-sm font-medium text-foreground hover:text-primary transition-colors py-2"
+                className="text-left text-base font-medium text-foreground hover:text-primary transition-colors py-2"
               >
                 {t('nav.quality')}
               </button>
               <button
                 onClick={() => scrollToSection("partnership")}
-                className="text-left text-sm font-medium text-foreground hover:text-primary transition-colors py-2"
+                className="text-left text-base font-medium text-foreground hover:text-primary transition-colors py-2"
               >
                 {t('nav.partnership')}
               </button>
