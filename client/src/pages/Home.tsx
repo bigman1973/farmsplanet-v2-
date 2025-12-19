@@ -135,7 +135,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
             <div>
               <img 
-                src="/hero-olive-grove.jpg" 
+                src="/olive-groves.jpg" 
                 alt="Olive Grove" 
                 className="rounded-2xl shadow-xl w-full"
               />

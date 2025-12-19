@@ -90,4 +90,7 @@
 - [x] Implementar soporte RTL para árabe
 - [x] Actualizar LanguageSelector con todos los idiomas y banderas
 - [x] Testing de todos los idiomas
-- [ ] Crear checkpoint final
+- [x] Crear checkpoint final
+
+## Corrección de Errores
+- [x] Diagnosticar y corregir imagen de "Nuestra Historia" que no se visualiza
