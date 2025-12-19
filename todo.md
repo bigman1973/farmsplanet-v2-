@@ -94,3 +94,6 @@
 
 ## Corrección de Errores
 - [x] Diagnosticar y corregir imagen de "Nuestra Historia" que no se visualiza
+
+## Actualización de Contenidos
+- [x] Eliminar frase "Mikel's brand or white label solutions" del subtítulo del Hero en todos los idiomas
