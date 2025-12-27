@@ -75,10 +75,15 @@ export default function Home() {
           requestCatalog: false
         });
       } else {
-        toast.error(data.message || "Failed to send message. Please try again.");
+        // Show detailed error message from server
+        const errorMessage = data.error || data.message || "Failed to send message";
+        toast.error(`Error: ${errorMessage}`);
+        console.error("Server error details:", data);
       }
-    } catch (error) {
-      toast.error("An error occurred. Please try again later.");
+    } catch (error: any) {
+      // Show detailed network/client error
+      const errorMsg = error?.message || "Unknown error";
+      toast.error(`Connection Error: ${errorMsg}`);
       console.error("Contact form error:", error);
     } finally {
       setIsSubmitting(false);
