@@ -45,19 +45,44 @@ export default function Home() {
     requestCatalog: false
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    toast.success(t('contact.successMessage'));
-    setFormData({
-      company: "",
-      name: "",
-      email: "",
-      phone: "",
-      country: "",
-      interest: "",
-      message: "",
-      requestCatalog: false
-    });
+    setIsSubmitting(true);
+    
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await response.json();
+
+      if (response.ok) {
+        toast.success(t('contact.successMessage'));
+        setFormData({
+          company: "",
+          name: "",
+          email: "",
+          phone: "",
+          country: "",
+          interest: "",
+          message: "",
+          requestCatalog: false
+        });
+      } else {
+        toast.error(data.message || "Failed to send message. Please try again.");
+      }
+    } catch (error) {
+      toast.error("An error occurred. Please try again later.");
+      console.error("Contact form error:", error);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   // Map Markers Data
@@ -749,9 +774,10 @@ export default function Home() {
                 <Button 
                   type="submit"
                   size="lg"
-                  className="w-full bg-accent text-accent-foreground hover:bg-primary hover:text-primary-foreground"
+                  disabled={isSubmitting}
+                  className="w-full bg-accent text-accent-foreground hover:bg-primary hover:text-primary-foreground disabled:opacity-50 disabled:cursor-not-allowed"
                 >
-                  {t('contact.submit')}
+                  {isSubmitting ? "Sending..." : t('contact.submit')}
                 </Button>
               </form>
 
