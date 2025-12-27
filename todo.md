@@ -97,3 +97,11 @@
 
 ## Actualización de Contenidos
 - [x] Eliminar frase "Mikel's brand or white label solutions" del subtítulo del Hero en todos los idiomas
+
+## Reorientación Estratégica (Mikel's como Marca Estrella)
+- [x] Actualizar Hero Section con nuevo título y subtítulo (Mikel's focus)
+- [x] Reordenar navegación principal: Mikel's, Productos, Historia, Certificaciones, Distribución
+- [x] Reestructurar sección de productos: Frutas, Zumos, Aceites
+- [x] Actualizar sección "Nuestra Historia" enfocada en Mikel's
+- [x] Actualizar sección "Solución Digital" para distribuidores de Mikel's
+- [x] Actualizar traducciones en todos los idiomas (EN, ES, FR, KO, JA, ZH, AR)

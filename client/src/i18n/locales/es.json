@@ -1,15 +1,15 @@
 {
   "nav": {
-    "about": "Nosotros",
-    "products": "Productos",
-    "quality": "Calidad",
-    "partnership": "Colaboración",
-    "digital": "Solución Digital",
+    "about": "Historia de Mikel's",
+    "products": "Productos Mikel's",
+    "quality": "Certificaciones",
+    "partnership": "Distribución Global",
+    "digital": "Plataforma Distribuidores",
     "contact": "Contacto"
   },
   "hero": {
-    "title": "Tu Socio Premium de Alimentación Española",
-    "subtitle": "Distribución a gran escala de productos mediterráneos auténticos para mercados internacionales.",
+    "title": "Mikel's: Tradición Mediterránea, Alcance Global",
+    "subtitle": "Frutas artesanales, zumos naturales y aceites premiados de España, distribuidos a 15+ países. Calidad certificada desde 1819.",
     "tradition": "200+ Años de Tradición",
     "since": "Desde 1819",
     "viewCatalog": "Ver Catálogo de Productos",
@@ -26,7 +26,7 @@
     "production": "En Producción"
   },
   "about": {
-    "title": "Nuestra Historia",
+    "title": "Historia de Mikel's",
     "subtitle": "Cinco generaciones dedicadas a los sabores mediterráneos auténticos, desde el corazón de España al mundo",
     "foundation": "Fundación",
     "foundationDesc": "Nuestra familia se establece en Alcarràs, Cataluña, iniciando un legado de excelencia agrícola que abarcaría generaciones.",
@@ -42,7 +42,7 @@
     "goldAward": "Premio Oro World's Best Olive Oils"
   },
   "products": {
-    "title": "Nuestros Productos Premium",
+    "title": "Productos Mikel's",
     "subtitle": "Desde frutas de hueso maduradas al sol hasta aceite de oliva premiado, cada producto encarna nuestro compromiso con la autenticidad mediterránea",
     "paraguayo": {
       "title": "Paraguayo en Almíbar",
@@ -80,7 +80,7 @@
     "quote": "Elaborado con el mismo cuidado y dedicación que nuestra familia ha aplicado durante más de 200 años"
   },
   "quality": {
-    "title": "Calidad y Certificaciones",
+    "title": "Certificaciones",
     "subtitle": "Cada producto que lleva el nombre Mikel's representa nuestra dedicación inquebrantable a la calidad, autenticidad y salud",
     "vegan": "COMIDA VEGANA",
     "veganDesc": "Productos 100% vegetales aptos para dietas veganas",
@@ -119,7 +119,7 @@
     "customOrdersDesc": "Soluciones adaptadas a tu mercado"
   },
   "partnership": {
-    "title": "Tu Socio Estratégico para el Éxito",
+    "title": "Distribución Global",
     "uniqueProducts": "Productos Únicos",
     "uniqueProductsDesc": "Único Paraguayo en almíbar del mundo",
     "qualityAssured": "Calidad Garantizada",
@@ -136,7 +136,7 @@
     "ecommerceDesc": "Tu propia tienda online Mikel's para tu mercado"
   },
   "digitalPartnership": {
-    "title": "Tu Solución Digital Completa",
+    "title": "Plataforma Distribuidores",
     "subtitle": "Como distribuidor de Farms Planet, no solo recibes productos premium—obtienes una plataforma de e-commerce lista para vender en tu mercado",
     "feature1": "Tienda Online Personalizada",
     "feature1Desc": "Sitio web de e-commerce completamente funcional con tu dominio local, idioma y moneda",

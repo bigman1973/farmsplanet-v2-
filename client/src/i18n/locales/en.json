@@ -1,15 +1,15 @@
 {
   "nav": {
-    "about": "About",
-    "products": "Products",
-    "quality": "Quality",
-    "partnership": "Partnership",
-    "digital": "Digital Solution",
+    "about": "Mikel's Heritage",
+    "products": "Mikel's Products",
+    "quality": "Certifications",
+    "partnership": "Global Distribution",
+    "digital": "Distributor Platform",
     "contact": "Contact"
   },
   "hero": {
-    "title": "Your Premium Spanish Food Partner",
-    "subtitle": "Bulk distribution of authentic Mediterranean products for international markets.",
+    "title": "Mikel's: Mediterranean Tradition, Global Reach",
+    "subtitle": "Artisanal fruits, natural juices, and award-winning oils from Spain, distributed to 15+ countries. Certified quality since 1819.",
     "tradition": "200+ Years of Tradition",
     "since": "Since 1819",
     "viewCatalog": "View Product Catalog",
