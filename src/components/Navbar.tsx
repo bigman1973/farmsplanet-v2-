@@ -23,13 +23,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex items-center gap-3 cursor-pointer" onClick={() => scrollToSection("hero")}>
-            <img src={APP_LOGO} alt="Farms Planet" className="h-12 w-auto" />
-            <div className="hidden sm:block">
-              <div className="font-bold text-xl text-foreground" style={{ fontFamily: "'Playfair Display', serif" }}>
-                FARMS PLANET
-              </div>
-              <div className="text-sm text-muted-foreground">Premium Spanish Food</div>
-            </div>
+            <img src={APP_LOGO} alt="Farms Planet" className="h-16 w-auto" />
           </div>
 
           {/* Desktop Navigation */}
