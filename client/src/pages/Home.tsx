@@ -30,6 +30,7 @@ import {
 import { useState } from "react";
 import { toast } from "sonner";
 import { useTranslation } from "react-i18next";
+import SEO from "@/components/SEO";
 
 export default function Home() {
   const { t } = useTranslation();
@@ -61,6 +62,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen">
+      <SEO />
       <Navbar />
       
       {/* Hero Section */}
