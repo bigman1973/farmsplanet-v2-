@@ -60,6 +60,21 @@ export default function Home() {
     });
   };
 
+  // Map Markers Data
+  const mapMarkers = [
+    // HQ Locations
+    { position: { lat: 41.5667, lng: 0.5167 }, title: "Mikel's HQ", description: "Alcarràs, Spain" },
+    { position: { lat: 37.8882, lng: -4.7794 }, title: "Mikel's Olive Groves", description: "Córdoba, Spain" },
+    // Current Markets
+    { position: { lat: 37.5665, lng: 126.9780 }, title: "Current Market", description: "Seoul, South Korea" },
+    { position: { lat: 35.6762, lng: 139.6503 }, title: "Current Market", description: "Tokyo, Japan" },
+    { position: { lat: 25.0330, lng: 121.5654 }, title: "Current Market", description: "Taipei, Taiwan" },
+    // Expansion Markets
+    { position: { lat: 25.2048, lng: 55.2708 }, title: "Expansion Market", description: "Dubai, UAE" },
+    { position: { lat: 48.8566, lng: 2.3522 }, title: "Expansion Market", description: "Paris, France" },
+    { position: { lat: 52.5200, lng: 13.4050 }, title: "Expansion Market", description: "Berlin, Germany" }
+  ];
+
   return (
     <div className="min-h-screen">
       <SEO />
@@ -267,36 +282,30 @@ export default function Home() {
               />
             </div>
             <div className="space-y-6">
-              <div className="inline-block bg-accent text-accent-foreground px-4 py-2 rounded-full font-semibold mb-4">
-                ⭐ {t('signature.badge')}
+              <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur px-4 py-2 rounded-full text-sm font-bold text-primary shadow-sm">
+                <Star size={16} className="fill-current" />
+                {t('products.signature')}
               </div>
               <h2 className="text-4xl md:text-5xl font-bold text-foreground" style={{ fontFamily: "'Playfair Display', serif" }}>
-                {t('signature.title')}
+                {t('products.paraguayo.title')}
               </h2>
-              <p className="text-lg text-muted-foreground">
-                {t('signature.description')}
+              <p className="text-xl text-muted-foreground">
+                {t('products.paraguayo.description')}
               </p>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div className="bg-primary text-primary-foreground p-6 rounded-xl">
-                  <div className="flex items-center gap-3 mb-2">
-                    <Award size={24} className="text-accent" />
-                    <h3 className="font-bold text-lg">{t('signature.handcrafted')}</h3>
-                  </div>
-                  <p className="text-sm opacity-90">{t('signature.handcraftedDesc')}</p>
-                </div>
-                <div className="bg-primary text-primary-foreground p-6 rounded-xl">
-                  <div className="flex items-center gap-3 mb-2">
-                    <Star size={24} className="text-accent" />
-                    <h3 className="font-bold text-lg">{t('signature.bestSeller')}</h3>
-                  </div>
-                  <p className="text-sm opacity-90">{t('signature.bestSellerDesc')}</p>
-                </div>
-              </div>
-              <blockquote className="border-l-4 border-secondary pl-6 py-4 bg-card rounded-r-xl">
-                <p className="text-lg italic text-muted-foreground">
-                  "{t('signature.quote')}"
-                </p>
-              </blockquote>
+              <ul className="space-y-4">
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="text-accent mt-1" />
+                  <span>{t('products.paraguayo.feature1')}</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="text-accent mt-1" />
+                  <span>{t('products.paraguayo.feature2')}</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="text-accent mt-1" />
+                  <span>{t('products.paraguayo.feature3')}</span>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -315,48 +324,34 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
-            <IconFeature 
-              icon={Leaf} 
-              title={t('quality.vegan')}
-              description={t('quality.veganDesc')}
-            />
-            <IconFeature 
-              icon={Dna} 
-              title={t('quality.gmoFree')}
-              description={t('quality.gmoFreeDesc')}
-            />
-            <IconFeature 
-              icon={Heart} 
-              title={t('quality.healthy')}
-              description={t('quality.healthyDesc')}
-            />
+            <Card className="bg-background border-none shadow-lg">
+              <CardContent className="p-8 text-center">
+                <div className="w-16 h-16 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <Shield size={32} className="text-accent" />
+                </div>
+                <h3 className="text-xl font-bold mb-3">{t('quality.globalGap')}</h3>
+                <p className="text-muted-foreground">{t('quality.globalGapDesc')}</p>
+              </CardContent>
+            </Card>
+            <Card className="bg-background border-none shadow-lg">
+              <CardContent className="p-8 text-center">
+                <div className="w-16 h-16 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <Heart size={32} className="text-accent" />
+                </div>
+                <h3 className="text-xl font-bold mb-3">{t('quality.ifsFood')}</h3>
+                <p className="text-muted-foreground">{t('quality.ifsFoodDesc')}</p>
+              </CardContent>
+            </Card>
+            <Card className="bg-background border-none shadow-lg">
+              <CardContent className="p-8 text-center">
+                <div className="w-16 h-16 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <Leaf size={32} className="text-accent" />
+                </div>
+                <h3 className="text-xl font-bold mb-3">{t('quality.ecoGarden')}</h3>
+                <p className="text-muted-foreground">{t('quality.ecoGardenDesc')}</p>
+              </CardContent>
+            </Card>
           </div>
-
-          <Card className="bg-primary text-primary-foreground mb-16">
-            <CardContent className="p-8 md:p-12">
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-                <div>
-                  <h3 className="text-3xl font-bold mb-4 text-accent" style={{ fontFamily: "'Playfair Display', serif" }}>
-                    {t('quality.processTitle')}
-                  </h3>
-                  <p className="text-lg opacity-90 mb-6">
-                    {t('quality.processDesc')}
-                  </p>
-                  <div className="flex items-center gap-4">
-                    <div className="bg-accent text-accent-foreground px-4 py-2 rounded-lg font-semibold">
-                      {t('quality.qualityCommitment')}
-                    </div>
-                    <div className="bg-accent/20 text-accent px-4 py-2 rounded-lg font-semibold">
-                      {t('quality.ecoGarden')}
-                    </div>
-                  </div>
-                </div>
-                <div className="text-center">
-                  <p className="text-sm opacity-80 mb-2">{t('quality.ecoGardenDesc')}</p>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
 
           <div className="text-center">
             <h3 className="text-2xl font-bold mb-8 text-foreground" style={{ fontFamily: "'Playfair Display', serif" }}>
@@ -418,66 +413,7 @@ export default function Home() {
               className="h-[500px] w-full"
               initialCenter={{ lat: 30.0, lng: 50.0 }} // Centered to show Europe, Middle East and Asia
               initialZoom={3}
-              onMapReady={(map: google.maps.Map) => {
-                // HQ Locations
-                const hqLocations = [
-                  { lat: 41.5667, lng: 0.5167, title: "Mikel's HQ - Alcarràs, Spain" },
-                  { lat: 37.8882, lng: -4.7794, title: "Mikel's Olive Groves - Córdoba, Spain" }
-                ];
-
-                // Current Markets
-                const markets = [
-                  { lat: 37.5665, lng: 126.9780, title: "Seoul, South Korea" },
-                  { lat: 35.6762, lng: 139.6503, title: "Tokyo, Japan" },
-                  { lat: 25.0330, lng: 121.5654, title: "Taipei, Taiwan" }
-                ];
-
-                // Expansion Markets
-                const expansion = [
-                  { lat: 25.2048, lng: 55.2708, title: "Dubai, UAE" },
-                  { lat: 48.8566, lng: 2.3522, title: "Paris, France" },
-                  { lat: 52.5200, lng: 13.4050, title: "Berlin, Germany" }
-                ];
-
-                // Add HQ Markers (Green)
-                hqLocations.forEach(loc => {
-                  new google.maps.marker.AdvancedMarkerElement({
-                    map,
-                    position: { lat: loc.lat, lng: loc.lng },
-                    title: loc.title,
-                    content: new DOMParser().parseFromString(
-                      '<div style="background-color: #3D5F3A; color: white; padding: 8px; border-radius: 50%; border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.3);"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V7l8-4 8 4v14M12 11v10"/></svg></div>',
-                      'text/html'
-                    ).body.firstChild,
-                  });
-                });
-
-                // Add Market Markers (Gold)
-                markets.forEach(loc => {
-                  new google.maps.marker.AdvancedMarkerElement({
-                    map,
-                    position: { lat: loc.lat, lng: loc.lng },
-                    title: loc.title,
-                    content: new DOMParser().parseFromString(
-                      '<div style="background-color: #D4A537; color: white; padding: 6px; border-radius: 50%; border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.3);"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>',
-                      'text/html'
-                    ).body.firstChild,
-                  });
-                });
-
-                // Add Expansion Markers (Terracotta)
-                expansion.forEach(loc => {
-                  new google.maps.marker.AdvancedMarkerElement({
-                    map,
-                    position: { lat: loc.lat, lng: loc.lng },
-                    title: loc.title,
-                    content: new DOMParser().parseFromString(
-                      '<div style="background-color: #C85C5C; color: white; padding: 6px; border-radius: 50%; border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.3);"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>',
-                      'text/html'
-                    ).body.firstChild,
-                  });
-                });
-              }}
+              markers={mapMarkers}
             />
           </div>
 
@@ -557,47 +493,22 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Why Partner with Farms Planet */}
+      {/* Partnership Section */}
       <section id="partnership" className="py-20 bg-card">
         <div className="container">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground" style={{ fontFamily: "'Playfair Display', serif" }}>
               {t('partnership.title')}
             </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              {t('partnership.subtitle')}
+            </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12">
-            <IconFeature 
-              icon={Star} 
-              title={t('partnership.uniqueProducts')}
-              description={t('partnership.uniqueProductsDesc')}
-            />
-            <IconFeature 
-              icon={Shield} 
-              title={t('partnership.qualityAssured')}
-              description={t('partnership.qualityAssuredDesc')}
-            />
-            <IconFeature 
-              icon={Clock} 
-              title={t('partnership.yearsExperience')}
-              description={t('partnership.yearsExperienceDesc')}
-            />
-            <IconFeature 
-              icon={Headphones} 
-              title={t('partnership.fullSupport')}
-              description={t('partnership.fullSupportDesc')}
-            />
-            <IconFeature 
-              icon={ShoppingCart} 
-              title={t('partnership.ecommerce')}
-              description={t('partnership.ecommerceDesc')}
-            />
-          </div>
-
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            <Card className="bg-accent text-accent-foreground">
-              <CardContent className="p-12">
-                <h3 className="text-3xl font-bold mb-6" style={{ fontFamily: "'Playfair Display', serif" }}>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <Card className="border-2 border-accent/20">
+              <CardContent className="p-8">
+                <h3 className="text-2xl font-bold mb-4 text-primary" style={{ fontFamily: "'Playfair Display', serif" }}>
                   {t('partnership.buildPartnership')}
                 </h3>
                 <p className="text-lg opacity-90 mb-6">
