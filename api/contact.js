@@ -23,6 +23,7 @@ export default async function handler(req, res) {
 
   try {
     // 1. Send Notification Email to Owner (Jordi)
+    // Using jordi@farmsplanet.es as sender since it is likely the verified account email
     const ownerEmail = new SibApiV3Sdk.SendSmtpEmail();
     ownerEmail.subject = `New B2B Inquiry from ${company || name}`;
     ownerEmail.htmlContent = `
@@ -42,7 +43,7 @@ export default async function handler(req, res) {
         </body>
       </html>
     `;
-    ownerEmail.sender = { name: "Farms Planet Web", email: "no-reply@farmsplanet.es" };
+    ownerEmail.sender = { name: "Farms Planet Web", email: "jordi@farmsplanet.es" };
     ownerEmail.to = [{ email: "jordi@farmsplanet.es", name: "Jordi Giró" }];
     
     await apiInstance.sendTransacEmail(ownerEmail);
@@ -63,35 +64,41 @@ export default async function handler(req, res) {
         </body>
       </html>
     `;
-    userEmail.sender = { name: "Farms Planet", email: "sales@farmsplanet.es" };
+    // Use the same verified sender
+    userEmail.sender = { name: "Farms Planet", email: "jordi@farmsplanet.es" };
     userEmail.to = [{ email: email, name: name }];
 
-    await apiInstance.sendTransacEmail(userEmail);
+    try {
+        await apiInstance.sendTransacEmail(userEmail);
+    } catch (emailError) {
+        console.error('Confirmation email error:', emailError);
+        // Continue execution even if confirmation email fails
+    }
 
     // 3. Add Contact to Brevo List
+    // Simplified to avoid attribute mapping errors
     const createContact = new SibApiV3Sdk.CreateContact();
     createContact.email = email;
     createContact.attributes = {
-      NOM: name,
-      COMPANY: company,
-      PHONE: phone,
-      COUNTRY: country,
-      INTEREST: interest
+      // Only using standard attributes usually available by default
+      FIRSTNAME: name,
+      SMS: phone
     };
     createContact.listIds = process.env.BREVO_LIST_ID ? [parseInt(process.env.BREVO_LIST_ID)] : [];
-    createContact.updateEnabled = true; // Update if exists
+    createContact.updateEnabled = true;
 
     try {
       await contactsApi.createContact(createContact);
     } catch (contactError) {
-      // Ignore error if contact already exists or other minor issue, but log it
       console.log('Contact creation warning:', contactError.message);
+      // Don't fail the request if contact creation fails (e.g. duplicate)
     }
 
-    return res.status(200).json({ success: true, message: 'Emails sent and contact saved' });
+    return res.status(200).json({ success: true, message: 'Emails sent successfully' });
 
   } catch (error) {
-    console.error('Brevo API Error:', error);
-    return res.status(500).json({ success: false, message: 'Failed to process request', error: error.message });
+    console.error('Brevo API Critical Error:', error);
+    // Return the actual error message for debugging
+    return res.status(500).json({ success: false, message: 'Failed to send email', error: error.message || JSON.stringify(error) });
   }
 }
