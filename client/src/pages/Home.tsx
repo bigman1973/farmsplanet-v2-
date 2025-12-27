@@ -5,6 +5,7 @@ import { Textarea } from "@/components/ui/textarea";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { StatBox, ProductCard, IconFeature, TimelineItem } from "@/components/ReusableComponents";
+import { MapView } from "@/components/Map";
 import { 
   Award, 
   Leaf, 
@@ -224,7 +225,7 @@ export default function Home() {
               badge={t('products.temprano.badge')}
             />
             <ProductCard 
-              image="/paraguayo-product.webp"
+              image="/nectarina-product.webp"
               title={t('products.nectarina.title')}
               description={t('products.nectarina.description')}
               badge={t('products.nectarina.badge')}
@@ -375,11 +376,15 @@ export default function Home() {
                 <p className="text-sm text-muted-foreground">Gold Award</p>
               </div>
               <div className="text-center">
-                <div className="w-20 h-20 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <Award size={32} className="text-accent" />
+                <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mx-auto mb-3 overflow-hidden shadow-md border-2 border-accent">
+                  <img 
+                    src="/olive-japan-2025.jpg" 
+                    alt="Olive Japan 2025 Gold Medal" 
+                    className="w-full h-full object-cover"
+                  />
                 </div>
-                <p className="font-semibold">{t('quality.oliveJapan2025')}</p>
-                <p className="text-sm text-muted-foreground">Gold Award</p>
+                <p className="font-semibold text-lg">{t('quality.oliveJapan2025')}</p>
+                <p className="text-sm text-accent font-bold">Gold Award</p>
               </div>
               <div className="text-center">
                 <div className="w-20 h-20 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-3">
@@ -403,6 +408,75 @@ export default function Home() {
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               {t('supplyChain.subtitle')}
             </p>
+          </div>
+
+          {/* Interactive Map */}
+          <div className="mb-16 rounded-2xl overflow-hidden shadow-xl border-2 border-accent/20">
+            <MapView 
+              className="h-[500px] w-full"
+              initialCenter={{ lat: 30.0, lng: 50.0 }} // Centered to show Europe, Middle East and Asia
+              initialZoom={3}
+              onMapReady={(map: google.maps.Map) => {
+                // HQ Locations
+                const hqLocations = [
+                  { lat: 41.5667, lng: 0.5167, title: "Mikel's HQ - Alcarràs, Spain" },
+                  { lat: 37.8882, lng: -4.7794, title: "Mikel's Olive Groves - Córdoba, Spain" }
+                ];
+
+                // Current Markets
+                const markets = [
+                  { lat: 37.5665, lng: 126.9780, title: "Seoul, South Korea" },
+                  { lat: 35.6762, lng: 139.6503, title: "Tokyo, Japan" },
+                  { lat: 25.0330, lng: 121.5654, title: "Taipei, Taiwan" }
+                ];
+
+                // Expansion Markets
+                const expansion = [
+                  { lat: 25.2048, lng: 55.2708, title: "Dubai, UAE" },
+                  { lat: 48.8566, lng: 2.3522, title: "Paris, France" },
+                  { lat: 52.5200, lng: 13.4050, title: "Berlin, Germany" }
+                ];
+
+                // Add HQ Markers (Green)
+                hqLocations.forEach(loc => {
+                  new google.maps.marker.AdvancedMarkerElement({
+                    map,
+                    position: { lat: loc.lat, lng: loc.lng },
+                    title: loc.title,
+                    content: new DOMParser().parseFromString(
+                      '<div style="background-color: #3D5F3A; color: white; padding: 8px; border-radius: 50%; border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.3);"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V7l8-4 8 4v14M12 11v10"/></svg></div>',
+                      'text/html'
+                    ).body.firstChild,
+                  });
+                });
+
+                // Add Market Markers (Gold)
+                markets.forEach(loc => {
+                  new google.maps.marker.AdvancedMarkerElement({
+                    map,
+                    position: { lat: loc.lat, lng: loc.lng },
+                    title: loc.title,
+                    content: new DOMParser().parseFromString(
+                      '<div style="background-color: #D4A537; color: white; padding: 6px; border-radius: 50%; border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.3);"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>',
+                      'text/html'
+                    ).body.firstChild,
+                  });
+                });
+
+                // Add Expansion Markers (Terracotta)
+                expansion.forEach(loc => {
+                  new google.maps.marker.AdvancedMarkerElement({
+                    map,
+                    position: { lat: loc.lat, lng: loc.lng },
+                    title: loc.title,
+                    content: new DOMParser().parseFromString(
+                      '<div style="background-color: #C85C5C; color: white; padding: 6px; border-radius: 50%; border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.3);"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>',
+                      'text/html'
+                    ).body.firstChild,
+                  });
+                });
+              }}
+            />
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">

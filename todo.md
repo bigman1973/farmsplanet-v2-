@@ -105,3 +105,19 @@
 - [x] Actualizar sección "Nuestra Historia" enfocada en Mikel's
 - [x] Actualizar sección "Solución Digital" para distribuidores de Mikel's
 - [x] Actualizar traducciones en todos los idiomas (EN, ES, FR, KO, JA, ZH, AR)
+
+## Mapa Interactivo de Distribuidores
+- [ ] Definir coordenadas y datos de ubicaciones (HQ, Mercados Actuales, Expansión)
+- [ ] Añadir traducciones para el mapa en todos los idiomas (EN, ES, FR, KO, JA, ZH, AR)
+- [ ] Implementar componente de mapa en Home.tsx usando MapView
+- [ ] Estilar el contenedor del mapa para que encaje con el diseño premium
+
+## Galardón Olive Japan 2025
+- [ ] Copiar imagen del galardón al directorio public
+- [ ] Integrar imagen del galardón en la sección de Certificaciones
+- [ ] Añadir badge destacado en la sección de Aceites de Oliva
+
+## Correcciones
+- [x] Obtener imagen correcta de Nectarina en Almíbar de mikels.es
+- [x] Reemplazar imagen incorrecta en Home.tsx
+- [x] Corregir error de sintaxis JSON en en.json

@@ -7,8 +7,14 @@
     "digital": "Distributor Platform",
     "contact": "Contact"
   },
-  "hero": {
-    "title": "Mikel's: Mediterranean Tradition, Global Reach",
+  "map": {
+    "title": "Our Global Presence",
+    "subtitle": "From our Spanish groves to tables around the world",
+    "hq": "Headquarters & Production",
+    "currentMarkets": "Current Markets",
+    "expansionMarkets": "Expansion Markets"
+  },
+  "hero": { "title": "Mikel's: Mediterranean Tradition, Global Reach",
     "subtitle": "Artisanal fruits, natural juices, and award-winning oils from Spain, distributed to 15+ countries. Certified quality since 1819.",
     "tradition": "200+ Years of Tradition",
     "since": "Since 1819",
