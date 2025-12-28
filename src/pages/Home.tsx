@@ -267,9 +267,19 @@ export default function Home() {
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground" style={{ fontFamily: "'Playfair Display', serif" }}>
               {t('products.title')}
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
               {t('products.subtitle')}
             </p>
+            <Button 
+              asChild
+              size="lg" 
+              className="bg-primary text-primary-foreground hover:bg-primary/90"
+            >
+              <a href="https://www.mikels.es/tienda" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                Visita nuestra tienda online
+                <ExternalLink size={18} />
+              </a>
+            </Button>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
