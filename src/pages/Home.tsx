@@ -515,11 +515,12 @@ export default function Home() {
           </div>
 
           {/* World Map */}
-          <div className="mb-16 rounded-2xl overflow-hidden shadow-xl border-2 border-accent/20">
+          <div className="mb-16 rounded-2xl overflow-hidden shadow-xl border-2 border-accent/20 max-w-2xl mx-auto">
             <img 
               src="/world-map-vintage.jpg" 
               alt="World Map" 
               className="w-full h-auto object-cover"
+              style={{ maxHeight: '300px' }}
             />
           </div>
 
