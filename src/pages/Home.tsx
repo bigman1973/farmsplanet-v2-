@@ -645,57 +645,7 @@ export default function Home() {
             </div>
           </div>
 
-          <Card className="bg-card">
-            <CardContent className="p-12">
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-                <div>
-                  <h3 className="text-3xl font-bold mb-4 text-foreground" style={{ fontFamily: "'Playfair Display', serif" }}>
-                    {t('digitalPartnership.exampleTitle')}
-                  </h3>
-                  <p className="text-lg text-muted-foreground mb-6">
-                    {t('digitalPartnership.exampleDesc')}
-                  </p>
-                  <div className="flex flex-col sm:flex-row gap-4">
-                    <Button 
-                      asChild
-                      size="lg" 
-                      className="bg-primary text-primary-foreground hover:bg-primary/90"
-                    >
-                      <a href="https://mikels.es" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
-                        {t('digitalPartnership.visitDemo')}
-                        <ExternalLink size={18} />
-                      </a>
-                    </Button>
-                    <Button 
-                      size="lg" 
-                      variant="outline"
-                      onClick={() => {
-                        const contactSection = document.getElementById('contact');
-                        if (contactSection) {
-                          contactSection.scrollIntoView({ behavior: 'smooth' });
-                        }
-                      }}
-                    >
-                      {t('digitalPartnership.requestStore')}
-                    </Button>
-                  </div>
-                </div>
-                <div className="bg-muted rounded-lg p-4 border-2 border-border overflow-hidden">
-                  <div className="aspect-video bg-background rounded overflow-hidden">
-                    <img 
-                      src="/mikels-screenshot.webp" 
-                      alt="mikels.es - Live Demo Store" 
-                      className="w-full h-full object-cover object-top"
-                    />
-                  </div>
-                  <div className="text-center mt-4">
-                    <p className="text-muted-foreground font-medium">mikels.es</p>
-                    <p className="text-sm text-muted-foreground">Live Demo Store</p>
-                  </div>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
+
         </div>
       </section>
 
