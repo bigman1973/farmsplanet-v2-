@@ -136,21 +136,36 @@ export default function Home() {
             <span className="text-lg font-bold" style={{ fontFamily: "'Montserrat', sans-serif" }}>{t('hero.tradition')}</span>
             <span className="text-xs opacity-90">{t('hero.since')}</span>
           </div>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
+          <div className="flex flex-col sm:flex-row gap-3 justify-center mt-8 flex-wrap">
             <Button 
               size="lg" 
-              className="bg-accent text-accent-foreground hover:bg-accent/90 text-lg px-8 py-6"
+              className="bg-accent text-accent-foreground hover:bg-accent/90 px-6 py-3 text-sm"
               onClick={() => document.getElementById("products")?.scrollIntoView({ behavior: "smooth" })}
             >
-              {t('hero.viewCatalog')}
+              {t('hero.exploreCatalog')}
+            </Button>
+            <Button 
+              size="lg" 
+              className="bg-accent text-accent-foreground hover:bg-accent/90 px-6 py-3 text-sm"
+              onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
+            >
+              {t('hero.requestSamples')}
             </Button>
             <Button 
               size="lg" 
               variant="outline" 
-              className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-primary text-lg px-8 py-6"
+              className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-primary px-6 py-3 text-sm"
               onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
             >
-              {t('hero.requestInfo')}
+              {t('hero.distributionInfo')}
+            </Button>
+            <Button 
+              size="lg" 
+              variant="outline" 
+              className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-primary px-6 py-3 text-sm"
+              onClick={() => document.getElementById("products")?.scrollIntoView({ behavior: "smooth" })}
+            >
+              {t('hero.otherBrands')}
             </Button>
           </div>
         </div>
