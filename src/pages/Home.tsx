@@ -514,13 +514,12 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Interactive Map */}
+          {/* World Map */}
           <div className="mb-16 rounded-2xl overflow-hidden shadow-xl border-2 border-accent/20">
-            <MapView 
-              className="h-[500px] w-full"
-              initialCenter={{ lat: 30.0, lng: 50.0 }} // Centered to show Europe, Middle East and Asia
-              initialZoom={3}
-              markers={mapMarkers}
+            <img 
+              src="/world-map-clean.jpg" 
+              alt="World Map" 
+              className="w-full h-auto object-cover"
             />
           </div>
 
