@@ -452,38 +452,50 @@ export default function Home() {
             <h3 className="text-2xl font-bold mb-8 text-foreground" style={{ fontFamily: "'Playfair Display', serif" }}>
               {t('quality.awardsTitle')}
             </h3>
-            <div className="flex flex-wrap justify-center gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-5xl mx-auto">
               <div className="text-center">
-                <div className="w-20 h-20 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <Award size={32} className="text-accent" />
+                <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mx-auto mb-3 overflow-hidden shadow-md border-2 border-accent">
+                  <img 
+                    src="/nyooc-gold-medal.png" 
+                    alt="NYOOC Gold Medal 2023" 
+                    className="w-full h-full object-contain p-2"
+                  />
                 </div>
-                <p className="font-semibold">{t('quality.oliveJapan2022')}</p>
-                <p className="text-sm text-muted-foreground">Gold Award</p>
-              </div>
-              <div className="text-center">
-                <div className="w-20 h-20 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <Award size={32} className="text-accent" />
-                </div>
-                <p className="font-semibold">{t('quality.oliveJapan2024')}</p>
-                <p className="text-sm text-muted-foreground">Gold Award</p>
+                <p className="font-semibold">NYOOC 2023</p>
+                <p className="text-sm text-accent font-bold">Gold Medal</p>
               </div>
               <div className="text-center">
                 <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mx-auto mb-3 overflow-hidden shadow-md border-2 border-accent">
                   <img 
-                    src="/olive-japan-2025.jpg" 
-                    alt="Olive Japan 2025 Gold Medal" 
-                    className="w-full h-full object-cover"
+                    src="/nyooc-gold-medal.png" 
+                    alt="NYOOC Gold Medal 2024" 
+                    className="w-full h-full object-contain p-2"
                   />
                 </div>
-                <p className="font-semibold text-lg">{t('quality.oliveJapan2025')}</p>
-                <p className="text-sm text-accent font-bold">Gold Award</p>
+                <p className="font-semibold">NYOOC 2024</p>
+                <p className="text-sm text-accent font-bold">Gold Medal</p>
               </div>
               <div className="text-center">
-                <div className="w-20 h-20 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <Leaf size={32} className="text-primary" />
+                <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mx-auto mb-3 overflow-hidden shadow-md border-2 border-accent">
+                  <img 
+                    src="/olive-japan-2022.png" 
+                    alt="Olive Japan 2022 Gold Medal" 
+                    className="w-full h-full object-contain p-2"
+                  />
                 </div>
-                <p className="font-semibold">{t('quality.ecoGardenCert')}</p>
-                <p className="text-sm text-muted-foreground">Certified</p>
+                <p className="font-semibold text-lg">Olive Japan 2022</p>
+                <p className="text-sm text-accent font-bold">Gold Medal</p>
+              </div>
+              <div className="text-center">
+                <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mx-auto mb-3 overflow-hidden shadow-md border-2 border-accent">
+                  <img 
+                    src="/olive-japan-2024.png" 
+                    alt="Olive Japan 2024 Gold Medal" 
+                    className="w-full h-full object-contain p-2"
+                  />
+                </div>
+                <p className="font-semibold text-lg">Olive Japan 2024</p>
+                <p className="text-sm text-accent font-bold">Gold Medal</p>
               </div>
             </div>
           </div>
