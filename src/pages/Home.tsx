@@ -123,7 +123,7 @@ export default function Home() {
           <img 
             src="/farms-planet-logo-white.png" 
             alt="Farms Planet" 
-            className="h-32 md:h-48 mx-auto mb-6"
+            className="h-24 md:h-40 mx-auto mb-3"
           />
           <h1 className="text-3xl md:text-4xl font-bold mb-4" style={{ fontFamily: "'Playfair Display', serif" }}>
             {t('hero.tagline')}
@@ -131,10 +131,10 @@ export default function Home() {
           <p className="text-lg md:text-xl mb-8 max-w-3xl mx-auto">
             {t('hero.subtitle')}
           </p>
-          <div className="inline-flex items-center gap-3 bg-accent/90 text-accent-foreground px-6 py-3 rounded-full mb-8">
-            <Clock size={24} />
-            <span className="text-2xl font-bold" style={{ fontFamily: "'Montserrat', sans-serif" }}>{t('hero.tradition')}</span>
-            <span className="text-sm opacity-90">{t('hero.since')}</span>
+          <div className="inline-flex items-center gap-2 bg-black/80 text-white px-4 py-2 rounded-full mb-8">
+            <Clock size={18} />
+            <span className="text-lg font-bold" style={{ fontFamily: "'Montserrat', sans-serif" }}>{t('hero.tradition')}</span>
+            <span className="text-xs opacity-90">{t('hero.since')}</span>
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <Button 
