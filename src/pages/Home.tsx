@@ -569,9 +569,6 @@ export default function Home() {
                 </p>
                 <div className="bg-primary/20 rounded-lg p-6 mt-6">
                   <h4 className="font-bold text-xl mb-3">¿En qué te podemos ayudar?</h4>
-                  <p className="opacity-90 mb-4">
-                    {t('partnership.ecommerceDesc')}
-                  </p>
                   <Button 
                     size="lg" 
                     className="bg-primary text-primary-foreground hover:bg-primary/90 w-full"
