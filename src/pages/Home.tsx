@@ -123,9 +123,9 @@ export default function Home() {
           <img 
             src="/farms-planet-logo-white.png" 
             alt="Farms Planet" 
-            className="h-24 md:h-40 mx-auto mb-3"
+            className="h-24 md:h-40 mx-auto mb-8"
           />
-          <h1 className="text-3xl md:text-4xl font-bold mb-4" style={{ fontFamily: "'Playfair Display', serif" }}>
+          <h1 className="text-3xl md:text-4xl font-bold mb-6" style={{ fontFamily: "'Playfair Display', serif" }}>
             {t('hero.tagline')}
           </h1>
           <p className="text-lg md:text-xl mb-8 max-w-3xl mx-auto">
@@ -139,14 +139,14 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-3 justify-center mt-8 flex-wrap">
             <Button 
               size="lg" 
-              className="bg-accent text-accent-foreground hover:bg-accent/90 px-6 py-3 text-sm"
+              className="bg-accent text-white hover:bg-accent/90 px-6 py-3 text-sm"
               onClick={() => document.getElementById("products")?.scrollIntoView({ behavior: "smooth" })}
             >
               {t('hero.exploreCatalog')}
             </Button>
             <Button 
               size="lg" 
-              className="bg-accent text-accent-foreground hover:bg-accent/90 px-6 py-3 text-sm"
+              className="bg-accent text-white hover:bg-accent/90 px-6 py-3 text-sm"
               onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
             >
               {t('hero.requestSamples')}
