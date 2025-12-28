@@ -542,61 +542,7 @@ export default function Home() {
             />
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            <Card className="bg-primary text-primary-foreground">
-              <CardContent className="p-8">
-                <h3 className="text-2xl font-bold mb-6 text-accent" style={{ fontFamily: "'Playfair Display', serif" }}>
-                  {t('supplyChain.exportTitle')}
-                </h3>
-                <div className="grid grid-cols-2 gap-4">
-                  <div className="flex items-start gap-3">
-                    <Ship size={20} className="text-accent flex-shrink-0 mt-1" />
-                    <div>
-                      <h4 className="font-bold text-sm mb-1">{t('supplyChain.container')}</h4>
-                      <p className="text-xs opacity-90">{t('supplyChain.containerDesc')}</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <Thermometer size={20} className="text-accent flex-shrink-0 mt-1" />
-                    <div>
-                      <h4 className="font-bold text-sm mb-1">{t('supplyChain.coldChain')}</h4>
-                      <p className="text-xs opacity-90">{t('supplyChain.coldChainDesc')}</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <FileText size={20} className="text-accent flex-shrink-0 mt-1" />
-                    <div>
-                      <h4 className="font-bold text-sm mb-1">{t('supplyChain.documentation')}</h4>
-                      <p className="text-xs opacity-90">{t('supplyChain.documentationDesc')}</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <Settings size={20} className="text-accent flex-shrink-0 mt-1" />
-                    <div>
-                      <h4 className="font-bold text-sm mb-1">{t('supplyChain.customOrders')}</h4>
-                      <p className="text-xs opacity-90">{t('supplyChain.customOrdersDesc')}</p>
-                    </div>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
 
-            <Card className="bg-accent text-accent-foreground">
-              <CardContent className="p-8 flex flex-col justify-center h-full">
-                <div className="text-center space-y-6">
-                  <div>
-                    <div className="text-6xl font-bold mb-2" style={{ fontFamily: "'Montserrat', sans-serif" }}>15+</div>
-                    <div className="text-xl font-semibold">{t('stats.countries')}</div>
-                  </div>
-                  <div className="h-px bg-accent-foreground/20 w-1/2 mx-auto" />
-                  <div>
-                    <div className="text-6xl font-bold mb-2" style={{ fontFamily: "'Montserrat', sans-serif" }}>100%</div>
-                    <div className="text-xl font-semibold">{t('stats.quality')}</div>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          </div>
         </div>
       </section>
 
