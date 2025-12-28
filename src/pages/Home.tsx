@@ -599,52 +599,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Digital Partnership Section */}
-      <section id="digital" className="py-20 bg-gradient-to-br from-primary to-primary/80 text-primary-foreground">
-        <div className="container">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-accent" style={{ fontFamily: "'Playfair Display', serif" }}>
-              {t('digitalPartnership.title')}
-            </h2>
-            <p className="text-xl opacity-90 max-w-3xl mx-auto">
-              {t('digitalPartnership.subtitle')}
-            </p>
-          </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
-            <div className="bg-card/10 backdrop-blur-sm rounded-lg p-6 border border-accent/20">
-              <div className="w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center mb-4">
-                <Globe className="text-accent" size={24} />
-              </div>
-              <h3 className="text-xl font-bold mb-3 text-accent">{t('digitalPartnership.feature1')}</h3>
-              <p className="opacity-90">{t('digitalPartnership.feature1Desc')}</p>
-            </div>
-            <div className="bg-card/10 backdrop-blur-sm rounded-lg p-6 border border-accent/20">
-              <div className="w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center mb-4">
-                <ShoppingCart className="text-accent" size={24} />
-              </div>
-              <h3 className="text-xl font-bold mb-3 text-accent">{t('digitalPartnership.feature2')}</h3>
-              <p className="opacity-90">{t('digitalPartnership.feature2Desc')}</p>
-            </div>
-            <div className="bg-card/10 backdrop-blur-sm rounded-lg p-6 border border-accent/20">
-              <div className="w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center mb-4">
-                <CreditCard className="text-accent" size={24} />
-              </div>
-              <h3 className="text-xl font-bold mb-3 text-accent">{t('digitalPartnership.feature3')}</h3>
-              <p className="opacity-90">{t('digitalPartnership.feature3Desc')}</p>
-            </div>
-            <div className="bg-card/10 backdrop-blur-sm rounded-lg p-6 border border-accent/20">
-              <div className="w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center mb-4">
-                <TrendingUp className="text-accent" size={24} />
-              </div>
-              <h3 className="text-xl font-bold mb-3 text-accent">{t('digitalPartnership.feature4')}</h3>
-              <p className="opacity-90">{t('digitalPartnership.feature4Desc')}</p>
-            </div>
-          </div>
-
-
-        </div>
-      </section>
 
       {/* Contact Section */}
       <section id="contact" className="py-20 bg-background">
