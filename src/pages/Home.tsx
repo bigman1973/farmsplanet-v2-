@@ -388,29 +388,58 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
             <Card className="bg-background border-none shadow-lg">
               <CardContent className="p-8 text-center">
-                <div className="w-32 h-32 flex items-center justify-center mx-auto mb-6 overflow-hidden">
-                  <img 
-                    src="/certifications-organic.webp" 
-                    alt="Certificaciones Ecológicas" 
-                    className="w-full h-full object-contain"
-                  />
+                <div className="space-y-6">
+                  <div>
+                    <h3 className="text-xl font-bold mb-4">{t('quality.organic')}</h3>
+                    <div className="w-24 h-24 flex items-center justify-center mx-auto mb-4 overflow-hidden">
+                      <img 
+                        src="/certifications-organic.webp" 
+                        alt="Certificaciones Ecológicas" 
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                    <p className="text-muted-foreground text-sm mb-6">{t('quality.organicDesc')}</p>
+                  </div>
+                  <div className="border-t pt-6">
+                    <h4 className="text-lg font-bold mb-4">{t('quality.ecoGarden')}</h4>
+                    <div className="w-20 h-20 flex items-center justify-center mx-auto mb-4 overflow-hidden">
+                      <img 
+                        src="/eco-garden-logo.png" 
+                        alt="Eco Garden Certification" 
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                    <p className="text-muted-foreground text-sm">{t('quality.ecoGardenDesc')}</p>
+                  </div>
                 </div>
-                <h3 className="text-xl font-bold mb-3">{t('quality.organic')}</h3>
-                <p className="text-muted-foreground">{t('quality.organicDesc')}</p>
               </CardContent>
             </Card>
             <Card className="bg-background border-none shadow-lg">
               <CardContent className="p-8 text-center">
-                <div className="w-16 h-16 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <Leaf size={32} className="text-accent" />
+                <div className="w-24 h-24 flex items-center justify-center mx-auto mb-6 overflow-hidden">
+                  <img 
+                    src="/globalgap-logo.png" 
+                    alt="GlobalGAP Certification" 
+                    className="w-full h-full object-contain"
+                  />
                 </div>
-                <h3 className="text-xl font-bold mb-3">{t('quality.ecoGarden')}</h3>
-                <p className="text-muted-foreground">{t('quality.ecoGardenDesc')}</p>
+                <h3 className="text-xl font-bold mb-3">{t('quality.globalGap')}</h3>
+                <p className="text-muted-foreground">{t('quality.globalGapDesc')}</p>
               </CardContent>
             </Card>
           </div>
           
           <div className="mb-16 p-6 bg-accent/10 rounded-lg border border-accent/20">
+            <h4 className="text-lg font-bold mb-3 text-foreground">IFS Food Certification</h4>
+            <div className="flex justify-center mb-4">
+              <div className="w-20 h-20 flex items-center justify-center overflow-hidden">
+                <img 
+                  src="/ifs-food-logo.png" 
+                  alt="IFS Food Certification" 
+                  className="w-full h-full object-contain"
+                />
+              </div>
+            </div>
             <p className="text-center text-muted-foreground">
               {t('quality.packagingNote')}
             </p>
