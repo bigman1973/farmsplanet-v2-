@@ -393,7 +393,7 @@ export default function Home() {
                     <h3 className="text-xl font-bold mb-4">{t('quality.organic')}</h3>
                     <div className="w-24 h-24 flex items-center justify-center mx-auto mb-4 overflow-hidden">
                       <img 
-                        src="/certifications-organic.webp" 
+                        src="/eurohoja-organica.png" 
                         alt="Certificaciones Ecológicas" 
                         className="w-full h-full object-contain"
                       />
