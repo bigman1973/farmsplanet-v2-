@@ -3,7 +3,7 @@ export const ONE_YEAR_MS = 365 * 24 * 60 * 60 * 1000;
 
 export const APP_TITLE = import.meta.env.VITE_APP_TITLE || "App";
 
-export const APP_LOGO = "/logo.png";
+export const APP_LOGO = "/farms-planet-logo-color.png";
 
 // Generate login URL at runtime so redirect URI reflects the current origin.
 export const getLoginUrl = () => {
