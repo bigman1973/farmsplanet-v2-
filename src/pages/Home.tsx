@@ -517,7 +517,7 @@ export default function Home() {
           {/* World Map */}
           <div className="mb-16 rounded-2xl overflow-hidden shadow-xl border-2 border-accent/20">
             <img 
-              src="/world-map-clean.jpg" 
+              src="/world-map-vintage.jpg" 
               alt="World Map" 
               className="w-full h-auto object-cover"
             />
