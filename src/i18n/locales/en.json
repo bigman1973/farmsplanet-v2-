@@ -14,7 +14,8 @@
     "currentMarkets": "Current Markets",
     "expansionMarkets": "Expansion Markets"
   },
-  "hero": { "title": "Mikel's: Mediterranean Tradition, Global Reach",
+  "hero": {
+    "title": "Mikel's: Mediterranean Tradition, Global Reach",
     "subtitle": "Artisanal fruits, natural juices, and award-winning oils from Spain, distributed to 15+ countries. Certified quality since 1819.",
     "tradition": "200+ Years of Tradition",
     "since": "Since 1819",
@@ -50,10 +51,14 @@
   "products": {
     "title": "Our Premium Products",
     "subtitle": "From sun-ripened stone fruits to award-winning olive oil, every product embodies our commitment to Mediterranean authenticity",
+    "signature": "Our Signature Product",
     "paraguayo": {
       "title": "Paraguayo in Light Syrup",
       "description": "The flat peach that conquered our hearts over a century ago. Cultivated in Alcarràs, hand-selected, patiently cooked and lovingly jarred. World's only producer.",
-      "badge": "🌍 World Exclusive"
+      "badge": "🌍 World Exclusive",
+      "feature1": "Handcrafted - Each jar made by hand",
+      "feature2": "Best Seller - International favorite",
+      "feature3": "Premium - Guaranteed quality"
     },
     "oliveOil": {
       "title": "Extra Virgin Olive Oil",
@@ -70,8 +75,21 @@
       "description": "The peach without complexes: smooth skin, intense flavor, defined character. Cultivated in Alcarràs with the same care as our Paraguayo.",
       "badge": "✨ Artisanal"
     },
-    "bulkTitle": "Bulk Distribution & White Label Available",
-    "bulkDesc": "All products available in bulk quantities for international distribution. We offer Mikel's branded products or white label solutions tailored to your market needs.",
+    "juices": {
+      "title": "Mikel's Fruit Juices",
+      "description": "100% natural NFC juices produced in Spain, with no additives or preservatives. Available in multiple Mediterranean flavors.",
+      "badge": "🍊 100% Natural",
+      "appleGolden": {
+        "title": "Golden Claudy Apple",
+        "description": "Golden Claudy apple NFC juice from the Mediterranean basin. 200ml format."
+      },
+      "orangeValencia": {
+        "title": "Valencia Orange",
+        "description": "Valencia orange NFC juice from the Mediterranean basin. 200ml format. QR code connects to Google Earth showing farm locations."
+      }
+    },
+    "bulkTitle": "Bulk Distribution Available",
+    "bulkDesc": "All products available in bulk quantities for international distribution. We offer Mikel's branded products tailored to your market needs.",
     "containerLoads": "Container Loads Available",
     "customPackaging": "Custom Packaging Options"
   },
@@ -97,6 +115,10 @@
     "processTitle": "Minimal Industrial Processing",
     "processDesc": "Our commitment to maintaining detailed processing in each of our products for Mikel's Food and Healthy offerings, just as we have been doing since 1819. From field to jar, we maintain strict quality control at every step.",
     "qualityCommitment": "Quality Commitment",
+    "globalGap": "GlobalGAP Certification",
+    "globalGapDesc": "International standard for Good Agricultural Practices",
+    "ifsFood": "IFS Food Certification",
+    "ifsFoodDesc": "Food safety and quality standard",
     "ecoGarden": "Eco Garden Certified",
     "ecoGardenDesc": "Only 3 companies in Spain hold this certification",
     "awardsTitle": "Awards & Certifications",
@@ -125,7 +147,8 @@
     "customOrdersDesc": "Tailored solutions for your market"
   },
   "partnership": {
-    "title": "Your Strategic Partner for Success",
+    "title": "Experts in Mediterranean Brand Distribution",
+    "subtitle": "Farms Planet: Your Strategic Partner to Bring Spanish Brands to the World",
     "uniqueProducts": "Unique Products",
     "uniqueProductsDesc": "World's only Paraguayo in syrup",
     "qualityAssured": "Quality Assured",
@@ -136,8 +159,6 @@
     "fullSupportDesc": "Dedicated customer service",
     "buildPartnership": "Let's Build a Successful Partnership",
     "partnershipDesc": "Farms Planet is committed to supporting your success in Europe, Middle East (UAE), and Asia with authentic Spanish products, reliable supply, and exceptional service. Already present in Korea, Japan, and Taiwan.",
-    "whiteLabel": "🏷️ White Label Solutions Available",
-    "whiteLabelDesc": "We offer private label manufacturing for distributors who want to build their own brand with our premium Spanish products. Your brand, our 200-year expertise.",
     "ecommerce": "E-commerce Ready",
     "ecommerceDesc": "Your own Mikel's online store for your market"
   },
@@ -159,17 +180,16 @@
   },
   "contact": {
     "title": "Start Your Distribution Partnership",
-    "subtitle": "Connect with our international sales team to discuss bulk orders, white label solutions, and distribution opportunities",
+    "subtitle": "Connect with our international sales team to discuss bulk orders and distribution opportunities for our brands",
     "bulkPricing": "Bulk Pricing Available",
-    "whiteLabelOptions": "White Label Options",
-    "asiaExpertise": "Global Market Expertise",
+    "distributionExpertise": "Global Distribution Expertise",
     "companyName": "Company Name",
     "contactPerson": "Contact Person",
     "email": "Email",
     "phone": "Phone",
     "country": "Country",
     "productInterest": "Product Interest",
-    "productPlaceholder": "Paraguayo, Olive Oil, White Label, etc.",
+    "productPlaceholder": "Paraguayo, Olive Oil, Juices, etc.",
     "message": "Message",
     "messagePlaceholder": "Tell us about your distribution needs, target market, estimated volumes, and any specific requirements...",
     "requestCatalog": "Request full product catalog with bulk pricing",
@@ -180,10 +200,10 @@
     "successMessage": "Thank you for your interest! We'll contact you soon."
   },
   "footer": {
-    "description": "Premium Spanish food products with over 200 years of tradition. Your trusted partner for authentic Mediterranean excellence.",
+    "description": "Distributor of premium Mediterranean brands with over 200 years of tradition. Your trusted partner for authentic Spanish excellence.",
     "quickLinks": "Quick Links",
     "contact": "Contact",
     "rights": "All rights reserved.",
-    "tagline": "Premium Spanish Food Products"
+    "tagline": "Distributor of Premium Mediterranean Brands"
   }
 }

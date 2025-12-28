@@ -44,10 +44,14 @@
   "products": {
     "title": "Productos Mikel's",
     "subtitle": "Desde frutas de hueso maduradas al sol hasta aceite de oliva premiado, cada producto encarna nuestro compromiso con la autenticidad mediterránea",
+    "signature": "Nuestro Producto Estrella",
     "paraguayo": {
       "title": "Paraguayo en Almíbar",
       "description": "El melocotón plano que conquistó nuestros corazones hace más de un siglo. Cultivado en Alcarràs, seleccionado a mano, cocido con paciencia y envasado con amor. Único productor mundial.",
-      "badge": "🌍 Exclusivo Mundial"
+      "badge": "🌍 Exclusivo Mundial",
+      "feature1": "Artesanal - Cada tarro elaborado a mano",
+      "feature2": "Más Vendido - Favorito internacional",
+      "feature3": "Premium - Calidad garantizada"
     },
     "oliveOil": {
       "title": "Aceite de Oliva Virgen Extra",
@@ -64,8 +68,21 @@
       "description": "El melocotón sin complejos: piel lisa, sabor intenso, carácter definido. Cultivada en Alcarràs con el mismo cuidado que nuestro Paraguayo.",
       "badge": "✨ Artesanal"
     },
-    "bulkTitle": "Distribución a Granel y Marca Blanca Disponible",
-    "bulkDesc": "Todos los productos disponibles en grandes cantidades para distribución internacional. Ofrecemos productos con marca Mikel's o soluciones de marca blanca adaptadas a las necesidades de tu mercado.",
+    "juices": {
+      "title": "Zumos Mikel's Fruit",
+      "description": "Zumos 100% naturales NFC producidos en España, sin aditivos ni conservantes. Disponibles en múltiples sabores de la cuenca mediterránea.",
+      "badge": "🍊 100% Natural",
+      "appleGolden": {
+        "title": "Manzana Golden Claudy",
+        "description": "Zumo de manzana golden claudy NFC de la cuenca mediterránea. Formato 200ml."
+      },
+      "orangeValencia": {
+        "title": "Naranja Valencia",
+        "description": "Zumo de naranja valencia NFC de la cuenca mediterránea. Formato 200ml. Código QR conecta con Google Earth para mostrar la ubicación de las fincas."
+      }
+    },
+    "bulkTitle": "Distribución a Granel Disponible",
+    "bulkDesc": "Todos los productos disponibles en grandes cantidades para distribución internacional. Ofrecemos productos con marca Mikel's adaptados a las necesidades de tu mercado.",
     "containerLoads": "Cargas de Contenedor Disponibles",
     "customPackaging": "Opciones de Embalaje Personalizado"
   },
@@ -123,7 +140,8 @@
     "customOrdersDesc": "Soluciones adaptadas a tu mercado"
   },
   "partnership": {
-    "title": "Distribución Global",
+    "title": "Expertos en Distribución de Marcas Mediterráneas",
+    "subtitle": "Farms Planet: Tu Socio Estratégico para Llevar Marcas Españolas al Mundo",
     "uniqueProducts": "Productos Únicos",
     "uniqueProductsDesc": "Único Paraguayo en almíbar del mundo",
     "qualityAssured": "Calidad Garantizada",
@@ -134,8 +152,6 @@
     "fullSupportDesc": "Servicio al cliente dedicado",
     "buildPartnership": "Construyamos una Colaboración Exitosa",
     "partnershipDesc": "Farms Planet está comprometido a apoyar tu éxito en Europa, Oriente Medio (EAU) y Asia con productos españoles auténticos, suministro fiable y servicio excepcional. Ya presentes en Corea, Japón y Taiwán.",
-    "whiteLabel": "🏷️ Soluciones de Marca Blanca Disponibles",
-    "whiteLabelDesc": "Ofrecemos fabricación de marca privada para distribuidores que quieren construir su propia marca con nuestros productos españoles premium. Tu marca, nuestra experiencia de 200 años.",
     "ecommerce": "E-commerce Incluido",
     "ecommerceDesc": "Tu propia tienda online Mikel's para tu mercado"
   },
@@ -157,17 +173,16 @@
   },
   "contact": {
     "title": "Inicia tu Colaboración de Distribución",
-    "subtitle": "Conecta con nuestro equipo de ventas internacional para discutir pedidos a granel, soluciones de marca blanca y oportunidades de distribución",
+    "subtitle": "Conecta con nuestro equipo de ventas internacional para discutir pedidos a granel y oportunidades de distribución de marcas",
     "bulkPricing": "Precios por Volumen Disponibles",
-    "whiteLabelOptions": "Opciones de Marca Blanca",
-    "asiaExpertise": "Experiencia en Mercados Globales",
+    "distributionExpertise": "Experiencia en Distribución Global",
     "companyName": "Nombre de la Empresa",
     "contactPerson": "Persona de Contacto",
     "email": "Email",
     "phone": "Teléfono",
     "country": "País",
     "productInterest": "Interés en Producto",
-    "productPlaceholder": "Paraguayo, Aceite de Oliva, Marca Blanca, etc.",
+    "productPlaceholder": "Paraguayo, Aceite de Oliva, Zumos, etc.",
     "message": "Mensaje",
     "messagePlaceholder": "Cuéntanos sobre tus necesidades de distribución, mercado objetivo, volúmenes estimados y cualquier requisito específico...",
     "requestCatalog": "Solicitar catálogo completo de productos con precios por volumen",
@@ -178,10 +193,10 @@
     "successMessage": "¡Gracias por tu interés! Te contactaremos pronto."
   },
   "footer": {
-    "description": "Productos alimentarios españoles premium con más de 200 años de tradición. Tu socio de confianza para la excelencia mediterránea auténtica.",
+    "description": "Distribuidor de marcas mediterráneas premium con más de 200 años de tradición. Tu socio de confianza para la excelencia española auténtica.",
     "quickLinks": "Enlaces Rápidos",
     "contact": "Contacto",
     "rights": "Todos los derechos reservados.",
-    "tagline": "Productos Alimentarios Españoles Premium"
+    "tagline": "Distribuidor de Marcas Mediterráneas Premium"
   }
 }
