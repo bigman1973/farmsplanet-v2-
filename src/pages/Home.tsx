@@ -568,18 +568,32 @@ export default function Home() {
                   {t('partnership.partnershipDesc')}
                 </p>
                 <div className="bg-primary/20 rounded-lg p-6 mt-6">
-                  <h4 className="font-bold text-xl mb-3">{t('partnership.ecommerce')}</h4>
-                  <p className="opacity-90">
+                  <h4 className="font-bold text-xl mb-3">¿En qué te podemos ayudar?</h4>
+                  <p className="opacity-90 mb-4">
                     {t('partnership.ecommerceDesc')}
                   </p>
+                  <Button 
+                    size="lg" 
+                    className="bg-primary text-primary-foreground hover:bg-primary/90 w-full"
+                    onClick={() => {
+                      const contactSection = document.getElementById('contact');
+                      if (contactSection) {
+                        contactSection.scrollIntoView({ behavior: 'smooth' });
+                      }
+                    }}
+                  >
+                    Envíanos tu información
+                  </Button>
                 </div>
               </CardContent>
             </Card>
             <Card className="bg-primary text-primary-foreground">
               <CardContent className="p-12 flex flex-col justify-center h-full text-center">
-                <h3 className="text-4xl font-bold mb-4 text-accent" style={{ fontFamily: "'Playfair Display', serif" }}>
-                  FARMS PLANET
-                </h3>
+                <img 
+                  src="/farms-planet-logo-white.png" 
+                  alt="Farms Planet" 
+                  className="h-24 mx-auto mb-6"
+                />
                 <div className="h-1 w-20 bg-accent mx-auto mb-4" />
                 <p className="text-lg">{t('footer.tagline')}</p>
               </CardContent>
