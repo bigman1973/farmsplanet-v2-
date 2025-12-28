@@ -545,9 +545,9 @@ export default function Home() {
                   {t('partnership.partnershipDesc')}
                 </p>
                 <div className="bg-primary/20 rounded-lg p-6 mt-6">
-                  <h4 className="font-bold text-xl mb-3">{t('partnership.whiteLabel')}</h4>
+                  <h4 className="font-bold text-xl mb-3">{t('partnership.ecommerce')}</h4>
                   <p className="opacity-90">
-                    {t('partnership.whiteLabelDesc')}
+                    {t('partnership.ecommerceDesc')}
                   </p>
                 </div>
               </CardContent>
@@ -679,11 +679,11 @@ export default function Home() {
               </span>
               <span className="inline-flex items-center gap-2 bg-accent/10 text-accent px-4 py-2 rounded-full text-sm font-semibold">
                 <CheckCircle size={16} />
-                {t('contact.whiteLabelOptions')}
+                {t('contact.distributionExpertise')}
               </span>
               <span className="inline-flex items-center gap-2 bg-accent/10 text-accent px-4 py-2 rounded-full text-sm font-semibold">
                 <CheckCircle size={16} />
-                {t('contact.asiaExpertise')}
+                {t('contact.bulkPricing')}
               </span>
             </div>
           </div>
