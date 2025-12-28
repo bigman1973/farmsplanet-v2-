@@ -123,7 +123,7 @@ export default function Home() {
           <h1 className="text-5xl md:text-7xl font-bold mb-4" style={{ fontFamily: "'Playfair Display', serif" }}>
             {t('hero.title')}
           </h1>
-          <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
+          <p className="text-lg md:text-xl mb-8 max-w-3xl mx-auto">
             {t('hero.subtitle')}
           </p>
           <div className="inline-flex items-center gap-3 bg-accent/90 text-accent-foreground px-6 py-3 rounded-full mb-8">
