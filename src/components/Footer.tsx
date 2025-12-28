@@ -90,6 +90,15 @@ export default function Footer() {
               <div className="flex items-start gap-2">
                 <MapPin size={16} className="mt-1 text-accent flex-shrink-0" />
                 <div className="opacity-90">
+                  <div className="font-medium mb-2">Oficinas - Lleida</div>
+                  C/ Cardenal Cisneros 10<br />
+                  CP 25003 Lleida, Spain
+                </div>
+              </div>
+              <div className="flex items-start gap-2">
+                <MapPin size={16} className="mt-1 text-accent flex-shrink-0" />
+                <div className="opacity-90">
+                  <div className="font-medium mb-2">Producción - Alcarràs</div>
                   Alcarràs, Catalonia, Spain<br />
                   {t('about.europeLeading')}
                 </div>
