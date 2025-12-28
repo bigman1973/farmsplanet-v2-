@@ -62,9 +62,14 @@
       "feature3": "Premium - Guaranteed quality"
     },
     "oliveOil": {
-      "title": "Extra Virgin Olive Oil",
-      "description": "Award-winning organic olive oil from Córdoba. Gold Medal winner at Olive Japan 2025 and World's Best Olive Oils 2022 & 2024. Three varieties: Arbequina, Picual, Hojiblanca.",
-      "badge": "🏆 Award Winner"
+      "title": "Organic Extra Virgin Olive Oil",
+      "description": "Award-winning organic olive oil from Córdoba. Gold Medal at Olive Japan 2025 and World's Best Olive Oils 2022 and 2024. Three varieties: Arbequina, Picual, Hojiblanca. Organic certified.",
+      "badge": "🏆 Award-Winning"
+    },
+    "oliveOilConventional": {
+      "title": "Extra Virgin Olive Oil Conventional",
+      "description": "Extra virgin olive oil from Córdoba with conventional production methods. Premium quality with intense flavor and exceptional organoleptic characteristics.",
+      "badge": "✨ Premium"
     },
     "temprano": {
       "title": "Early Harvest Olive Oil",

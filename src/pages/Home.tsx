@@ -272,7 +272,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ProductCard 
               image="/paraguayo-product.webp"
               title={t('products.paraguayo.title')}
@@ -286,6 +286,12 @@ export default function Home() {
               badge={t('products.oliveOil.badge')}
             />
             <ProductCard 
+              image="/olive-oil-conventional-product.webp"
+              title={t('products.oliveOilConventional.title')}
+              description={t('products.oliveOilConventional.description')}
+              badge={t('products.oliveOilConventional.badge')}
+            />
+            <ProductCard 
               image="/temprano-oil-product.webp"
               title={t('products.temprano.title')}
               description={t('products.temprano.description')}
@@ -296,6 +302,12 @@ export default function Home() {
               title={t('products.nectarina.title')}
               description={t('products.nectarina.description')}
               badge={t('products.nectarina.badge')}
+            />
+            <ProductCard 
+              image="/juices-product.webp"
+              title={t('products.juices.title')}
+              description={t('products.juices.description')}
+              badge={t('products.juices.badge')}
             />
           </div>
           

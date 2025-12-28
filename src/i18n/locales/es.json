@@ -55,9 +55,14 @@
       "feature3": "Premium - Calidad garantizada"
     },
     "oliveOil": {
-      "title": "Aceite de Oliva Virgen Extra",
-      "description": "Aceite de oliva ecológico premiado de Córdoba. Medalla de Oro en Olive Japan 2025 y World's Best Olive Oils 2022 y 2024. Tres variedades: Arbequina, Picual, Hojiblanca.",
+      "title": "Aceite de Oliva Virgen Extra Ecológico",
+      "description": "Aceite de oliva ecológico premiado de Córdoba. Medalla de Oro en Olive Japan 2025 y World's Best Olive Oils 2022 y 2024. Tres variedades: Arbequina, Picual, Hojiblanca. Certificado ecológico.",
       "badge": "🏆 Premiado"
+    },
+    "oliveOilConventional": {
+      "title": "Aceite de Oliva Virgen Extra Convencional",
+      "description": "Aceite de oliva virgen extra de Córdoba con métodos de producción convencionales. Calidad premium con sabor intenso y características organolépticas excepcionales.",
+      "badge": "✨ Premium"
     },
     "temprano": {
       "title": "Aceite Temprano",
