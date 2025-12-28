@@ -385,9 +385,9 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
             <Card className="bg-background border-none shadow-lg">
-              <CardContent className="p-8 text-center">
+              <CardContent className="p-4 md:p-6 text-center">
                 <div className="space-y-6">
                   <div>
                     <h3 className="text-xl font-bold mb-4">{t('quality.organic')}</h3>
@@ -415,7 +415,7 @@ export default function Home() {
               </CardContent>
             </Card>
             <Card className="bg-background border-none shadow-lg">
-              <CardContent className="p-8 text-center">
+              <CardContent className="p-4 md:p-6 text-center">
                 <div className="w-24 h-24 flex items-center justify-center mx-auto mb-6 overflow-hidden">
                   <img 
                     src="/globalgap-logo.png" 
