@@ -427,19 +427,22 @@ export default function Home() {
                 <p className="text-muted-foreground">{t('quality.globalGapDesc')}</p>
               </CardContent>
             </Card>
+            <Card className="bg-background border-none shadow-lg">
+              <CardContent className="p-4 md:p-6 text-center">
+                <div className="w-24 h-24 flex items-center justify-center mx-auto mb-6 overflow-hidden">
+                  <img 
+                    src="/ifs-food-logo.png" 
+                    alt="IFS Food Certification" 
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <h3 className="text-xl font-bold mb-3">{t('quality.ifsFood')}</h3>
+                <p className="text-muted-foreground text-sm">{t('quality.ifsFoodDesc')}</p>
+              </CardContent>
+            </Card>
           </div>
           
           <div className="mb-16 p-6 bg-accent/10 rounded-lg border border-accent/20">
-            <h4 className="text-lg font-bold mb-3 text-foreground">IFS Food Certification</h4>
-            <div className="flex justify-center mb-4">
-              <div className="w-20 h-20 flex items-center justify-center overflow-hidden">
-                <img 
-                  src="/ifs-food-logo.png" 
-                  alt="IFS Food Certification" 
-                  className="w-full h-full object-contain"
-                />
-              </div>
-            </div>
             <p className="text-center text-muted-foreground">
               {t('quality.packagingNote')}
             </p>
