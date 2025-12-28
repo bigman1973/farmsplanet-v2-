@@ -280,13 +280,13 @@ export default function Home() {
               badge={t('products.paraguayo.badge')}
             />
             <ProductCard 
-              image="/olive-oil-product.webp"
+              image="/olive-oil-organic-product.webp"
               title={t('products.oliveOil.title')}
               description={t('products.oliveOil.description')}
               badge={t('products.oliveOil.badge')}
             />
             <ProductCard 
-              image="/olive-oil-conventional-product.webp"
+              image="/olive-oil-product.webp"
               title={t('products.oliveOilConventional.title')}
               description={t('products.oliveOilConventional.description')}
               badge={t('products.oliveOilConventional.badge')}
