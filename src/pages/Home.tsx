@@ -489,12 +489,12 @@ export default function Home() {
               <div className="text-center">
                 <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mx-auto mb-3 overflow-hidden shadow-md border-2 border-accent">
                   <img 
-                    src="/olive-japan-2024.png" 
-                    alt="Olive Japan 2024 Gold Medal" 
+                    src="/olive-japan-2025.jpg" 
+                    alt="Olive Japan 2025 Gold Medal" 
                     className="w-full h-full object-contain p-2"
                   />
                 </div>
-                <p className="font-semibold text-lg">Olive Japan 2024</p>
+                <p className="font-semibold text-lg">Olive Japan 2025</p>
                 <p className="text-sm text-accent font-bold">Gold Medal</p>
               </div>
             </div>
