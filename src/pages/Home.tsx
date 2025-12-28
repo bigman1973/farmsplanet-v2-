@@ -520,7 +520,7 @@ export default function Home() {
               src="/world-map-vintage.jpg" 
               alt="World Map" 
               className="w-full h-auto object-cover"
-              style={{ maxHeight: '300px' }}
+              style={{ maxHeight: '375px' }}
             />
           </div>
 
