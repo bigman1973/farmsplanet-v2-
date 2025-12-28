@@ -415,7 +415,7 @@ export default function Home() {
               </CardContent>
             </Card>
             <Card className="bg-background border-none shadow-lg">
-              <CardContent className="p-4 md:p-6 text-center">
+              <CardContent className="p-4 md:p-6 text-center flex flex-col items-center justify-center h-full">
                 <div className="w-24 h-24 flex items-center justify-center mx-auto mb-6 overflow-hidden">
                   <img 
                     src="/globalgap-logo.png" 
@@ -428,7 +428,7 @@ export default function Home() {
               </CardContent>
             </Card>
             <Card className="bg-background border-none shadow-lg">
-              <CardContent className="p-4 md:p-6 text-center">
+              <CardContent className="p-4 md:p-6 text-center flex flex-col items-center justify-center h-full">
                 <div className="w-24 h-24 flex items-center justify-center mx-auto mb-6 overflow-hidden">
                   <img 
                     src="/ifs-food-logo.png" 
