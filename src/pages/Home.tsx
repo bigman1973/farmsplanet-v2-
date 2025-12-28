@@ -385,23 +385,18 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
             <Card className="bg-background border-none shadow-lg">
               <CardContent className="p-8 text-center">
-                <div className="w-16 h-16 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <Shield size={32} className="text-accent" />
+                <div className="w-32 h-32 flex items-center justify-center mx-auto mb-6 overflow-hidden">
+                  <img 
+                    src="/certifications-organic.webp" 
+                    alt="Certificaciones Ecológicas" 
+                    className="w-full h-full object-contain"
+                  />
                 </div>
-                <h3 className="text-xl font-bold mb-3">{t('quality.globalGap')}</h3>
-                <p className="text-muted-foreground">{t('quality.globalGapDesc')}</p>
-              </CardContent>
-            </Card>
-            <Card className="bg-background border-none shadow-lg">
-              <CardContent className="p-8 text-center">
-                <div className="w-16 h-16 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <Heart size={32} className="text-accent" />
-                </div>
-                <h3 className="text-xl font-bold mb-3">{t('quality.ifsFood')}</h3>
-                <p className="text-muted-foreground">{t('quality.ifsFoodDesc')}</p>
+                <h3 className="text-xl font-bold mb-3">{t('quality.organic')}</h3>
+                <p className="text-muted-foreground">{t('quality.organicDesc')}</p>
               </CardContent>
             </Card>
             <Card className="bg-background border-none shadow-lg">
@@ -413,6 +408,12 @@ export default function Home() {
                 <p className="text-muted-foreground">{t('quality.ecoGardenDesc')}</p>
               </CardContent>
             </Card>
+          </div>
+          
+          <div className="mb-16 p-6 bg-accent/10 rounded-lg border border-accent/20">
+            <p className="text-center text-muted-foreground">
+              {t('quality.packagingNote')}
+            </p>
           </div>
 
           <div className="text-center">
