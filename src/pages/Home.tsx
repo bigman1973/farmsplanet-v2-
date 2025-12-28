@@ -120,8 +120,13 @@ export default function Home() {
           }}
         />
         <div className="relative z-10 container text-center text-white space-y-6">
-          <h1 className="text-5xl md:text-7xl font-bold mb-4" style={{ fontFamily: "'Playfair Display', serif" }}>
-            {t('hero.title')}
+          <img 
+            src="/farms-planet-logo-white.png" 
+            alt="Farms Planet" 
+            className="h-32 md:h-48 mx-auto mb-6"
+          />
+          <h1 className="text-3xl md:text-4xl font-bold mb-4" style={{ fontFamily: "'Playfair Display', serif" }}>
+            {t('hero.tagline')}
           </h1>
           <p className="text-lg md:text-xl mb-8 max-w-3xl mx-auto">
             {t('hero.subtitle')}
