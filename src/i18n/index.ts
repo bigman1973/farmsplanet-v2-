@@ -9,6 +9,7 @@ import zh from './locales/zh.json';
 import ar from './locales/ar.json';
 import ru from './locales/ru.json';
 import hy from './locales/hy.json';
+import de from './locales/de.json';
 
 // Idiomas disponibles
 export const availableLanguages = [
@@ -21,6 +22,7 @@ export const availableLanguages = [
   { code: 'ar', name: 'العربية', flag: '🇦🇪', dir: 'rtl' },
   { code: 'ru', name: 'Русский', flag: '🇷🇺', dir: 'ltr' },
   { code: 'hy', name: 'Հայերեն', flag: '🇦🇲', dir: 'ltr' },
+  { code: 'de', name: 'Deutsch', flag: '🇩🇪', dir: 'ltr' },
 ];
 
 const resources = {
@@ -33,6 +35,7 @@ const resources = {
   ar: { translation: ar },
   ru: { translation: ru },
   hy: { translation: hy },
+  de: { translation: de },
 };
 
 // Detectar idioma del navegador o usar inglés por defecto

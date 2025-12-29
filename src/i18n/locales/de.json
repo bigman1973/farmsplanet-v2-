@@ -1,0 +1,64 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "products": "Produkte",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "language": "Sprache"
+  },
+  "hero": {
+    "title": "Farms Planet - Premium Mittelmeer-Produkte",
+    "subtitle": "Hochwertige Öle, Früchte und Lebensmittel aus Spanien",
+    "cta": "Kontaktiere uns"
+  },
+  "awards": {
+    "title": "Auszeichnungen",
+    "nyooc2023": "NYOOC Gold Medal 2023",
+    "nyooc2024": "NYOOC Gold Medal 2024",
+    "oliveJapan2022": "Olive Japan 2022",
+    "oliveJapan2025": "Olive Japan 2025"
+  },
+  "products": {
+    "title": "Produkte von Mikel's",
+    "subtitle": "Von sonnengetrockneten Früchten bis zu prämiertem Olivenöl - jedes Produkt verkörpert unser Engagement für mediterrane Authentizität",
+    "visitStore": "Besuche unseren Online-Shop",
+    "containerLoads": "Container-Ladungen verfügbar",
+    "coldChain": "Kühlkette",
+    "customPackaging": "Personalisierte Verpackungsoptionen",
+    "marketing": "Marketing-Unterstützung"
+  },
+  "bulkDistribution": {
+    "title": "Großmengen-Verteilung verfügbar",
+    "subtitle": "Alle Produkte in großen Mengen für internationale Verteilung verfügbar. Wir bieten Produkte, die an deine Marktanforderungen angepasst sind.",
+    "containerLoads": "Container-Ladungen verfügbar",
+    "customPackaging": "Personalisierte Verpackungsoptionen"
+  },
+  "partnership": {
+    "title": "Wie können wir dir helfen?",
+    "cta": "Sende uns deine Informationen",
+    "description": ""
+  },
+  "globalSupplyChain": {
+    "title": "Globale Lieferkette",
+    "subtitle": "Wir verbinden mediterrane Qualität mit weltweiter Reichweite"
+  },
+  "footer": {
+    "company": "Farms Planet",
+    "description": "Premium mediterrane Produkte aus Spanien",
+    "offices": "Büros - Lleida",
+    "address": "C/ Cardenal Cisneros 10",
+    "zipcode": "CP 25003 Lleida, Spanien",
+    "production": "Produktion - Alcarràs",
+    "productionAddress": "C/ Cardenal Cisneros 10",
+    "productionZipcode": "CP 25003 Alcarràs, Spanien",
+    "rights": "Alle Rechte vorbehalten",
+    "contact": "Kontakt",
+    "privacy": "Datenschutz",
+    "terms": "Bedingungen"
+  },
+  "sections": {
+    "exportCapabilities": "Exportfähigkeiten",
+    "digitalPartnership": "Digitale Partnerschaft",
+    "onlineStore": "Online-Shop"
+  }
+}
