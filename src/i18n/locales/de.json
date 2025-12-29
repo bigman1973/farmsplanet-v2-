@@ -1,64 +1,215 @@
 {
   "nav": {
-    "home": "Startseite",
-    "products": "Produkte",
-    "about": "Über uns",
-    "contact": "Kontakt",
-    "language": "Sprache"
+    "about": "Geschichte von Mikel's",
+    "products": "Produkte Mikel's",
+    "quality": "Zertifizierungen",
+    "partnership": "Globale Verteilung",
+    "contact": "Kontakt"
   },
   "hero": {
-    "title": "Farms Planet - Premium Mittelmeer-Produkte",
-    "subtitle": "Hochwertige Öle, Früchte und Lebensmittel aus Spanien",
-    "cta": "Kontaktiere uns"
+    "tagline": "Vertreiber von Premium-Marken",
+    "subtitle": "Handwerkliche Früchte, natürliche Säfte und preisgekrönte Öle aus Spanien, vertrieben in 15+ Länder. Zertifizierte Qualität seit 1819, unter unserer Marke Mikel's Fruit.",
+    "tradition": "200+ Jahre Tradition",
+    "since": "Unter Mikel's Fruit",
+    "exploreCatalog": "Mikel's Katalog erkunden",
+    "requestSamples": "Mikel's Muster anfordern",
+    "distributionInfo": "Verteilungsinformationen für Mikel's",
+    "otherBrands": "Andere mediterrane Marken kennenlernen"
   },
-  "awards": {
-    "title": "Auszeichnungen",
-    "nyooc2023": "NYOOC Gold Medal 2023",
-    "nyooc2024": "NYOOC Gold Medal 2024",
-    "oliveJapan2022": "Olive Japan 2022",
-    "oliveJapan2025": "Olive Japan 2025"
+  "stats": {
+    "years": "Jahre Tradition",
+    "since1819": "Seit 1819",
+    "countries": "Länder bedient",
+    "focusAsia": "Globale Reichweite",
+    "quality": "Qualitätsverpflichtung",
+    "certified": "Premium zertifiziert",
+    "hectares": "Hektar",
+    "production": "In Produktion"
+  },
+  "about": {
+    "title": "Geschichte von Mikel's",
+    "subtitle": "Fünf Generationen widmen sich authentischen mediterranen Geschmäckern, vom Herzen Spaniens in die Welt",
+    "foundation": "Gründung",
+    "foundationDesc": "Unsere Familie lässt sich in Alcarràs, Katalonien nieder und beginnt ein Vermächtnis der landwirtschaftlichen Exzellenz, das Generationen umfassen würde.",
+    "tradition": "Fortgesetzte Tradition",
+    "traditionDesc": "Sieben Generationen haben sich unserem Qualitätsengagement verschrieben und sind von lokalen Märkten zu internationaler Präsenz expandiert.",
+    "recognition": "Internationale Anerkennung",
+    "recognitionDesc": "Preise von Olive Japan, World's Best Olive Oils und Eco Garden Zertifizierung positionieren uns unter den weltweiten Elite-Produzenten.",
+    "alcarras": "Alcarràs, Katalonien",
+    "alcarrasDesc": "In der weltweit führenden Region für Steinobstproduktion gelegen, profitieren unsere 400 Hektar Obstgärten vom idealen mediterranen Klima und Jahrhunderten der Erfahrung. Hier bauen wir unsere Premium-Pfirsiche, Nektarinen und die einzigartigen Paraguayos an.",
+    "europeLeading": "Europas führende Region für Steinobst",
+    "cordoba": "Córdoba, Andalusien",
+    "cordobaDesc": "Im Herzen des Olivenanbaulands Andalusien produzieren wir preisgekröntes natives Olivenöl extra, das internationale Anerkennung gewonnen hat. Unsere ökologischen Produktionsmethoden ehren das Land und bieten außergewöhnlichen Geschmack.",
+    "goldAward": "Andalusien, weltweit führender Produzent"
   },
   "products": {
-    "title": "Produkte von Mikel's",
-    "subtitle": "Von sonnengetrockneten Früchten bis zu prämiertem Olivenöl - jedes Produkt verkörpert unser Engagement für mediterrane Authentizität",
-    "visitStore": "Besuche unseren Online-Shop",
-    "containerLoads": "Container-Ladungen verfügbar",
-    "coldChain": "Kühlkette",
-    "customPackaging": "Personalisierte Verpackungsoptionen",
-    "marketing": "Marketing-Unterstützung"
-  },
-  "bulkDistribution": {
-    "title": "Großmengen-Verteilung verfügbar",
-    "subtitle": "Alle Produkte in großen Mengen für internationale Verteilung verfügbar. Wir bieten Produkte, die an deine Marktanforderungen angepasst sind.",
+    "title": "Produkte Mikel's",
+    "subtitle": "Von sonnengereifte Steinobst bis zu preisgekröntem Olivenöl verkörpert jedes Produkt unser Engagement für mediterrane Authentizität",
+    "signature": "Unser Flaggschiff-Produkt",
+    "paraguayo": {
+      "title": "Paraguayo in Sirup",
+      "description": "Der flache Pfirsich, der vor über einem Jahrhundert unsere Herzen eroberte. In Alcarràs angebaut, von Hand ausgewählt, geduldig gekocht und mit Liebe verpackt. Weltweit einziger Produzent.",
+      "badge": "🌍 Weltweit exklusiv",
+      "feature1": "Handwerklich - Jedes Glas wird von Hand hergestellt",
+      "feature2": "Bestseller - Internationaler Favorit",
+      "feature3": "Premium - Garantierte Qualität"
+    },
+    "oliveOil": {
+      "title": "Natives Olivenöl Extra Bio",
+      "description": "Preisgekröntes Bio-Olivenöl aus Córdoba. Goldmedaille bei Olive Japan 2025 und World's Best Olive Oils 2022 und 2024. Drei Sorten: Arbequina, Picual, Hojiblanca. Bio-zertifiziert.",
+      "badge": "🏆 Preisgekrönt"
+    },
+    "oliveOilConventional": {
+      "title": "Natives Olivenöl Extra Konventionell",
+      "description": "Natives Olivenöl Extra aus Córdoba mit konventionellen Produktionsmethoden. Premium-Qualität mit intensivem Geschmack und außergewöhnlichen organoleptischen Eigenschaften.",
+      "badge": "✨ Premium"
+    },
+    "temprano": {
+      "title": "Früholiven-Öl",
+      "description": "Nicht für jeden. Und wir lieben es. Dieses Früholiven-Öl, hergestellt aus grünen Oliven, ist intensiv, scharf, mit grünem Fruchtgeschmack, der im Mund explodiert.",
+      "badge": "🍂 Limitierte Auflage"
+    },
+    "nectarina": {
+      "title": "Nektarine in Sirup",
+      "description": "Der unkomplizierte Pfirsich: glatte Haut, intensiver Geschmack, ausgeprägter Charakter. In Alcarràs mit der gleichen Sorgfalt wie unser Paraguayo angebaut.",
+      "badge": "✨ Handwerklich"
+    },
+    "juices": {
+      "title": "Mikel's Fruit Säfte",
+      "description": "100% natürliche NFC-Säfte in Spanien hergestellt, ohne Zusatzstoffe oder Konservierungsmittel. Verfügbar in mehreren Geschmacksrichtungen aus dem Mittelmeerraum.",
+      "badge": "🍊 100% Natürlich",
+      "appleGolden": {
+        "title": "Goldener Apfel Claudy",
+        "description": "NFC-Goldapfelsaft Claudy aus dem Mittelmeerraum. Format 200ml."
+      },
+      "orangeValencia": {
+        "title": "Valencia Orange",
+        "description": "NFC-Valencia-Orangensaft aus dem Mittelmeerraum. Format 200ml. QR-Code verbindet mit Google Earth, um den Standort der Farmen anzuzeigen."
+      }
+    },
+    "bulkTitle": "Großmengen-Verteilung verfügbar",
+    "bulkDesc": "Alle Produkte in großen Mengen für internationale Verteilung verfügbar. Wir bieten Produkte, die an deine Marktanforderungen angepasst sind.",
     "containerLoads": "Container-Ladungen verfügbar",
     "customPackaging": "Personalisierte Verpackungsoptionen"
   },
-  "partnership": {
-    "title": "Wie können wir dir helfen?",
-    "cta": "Sende uns deine Informationen",
-    "description": ""
+  "signature": {
+    "badge": "WELTWEIT EINZIGER PRODUZENT",
+    "title": "Paraguayo - Unser Flaggschiff-Produkt",
+    "description": "Der Paraguayo, auch als flacher Pfirsich oder Donut-Pfirsich bekannt, ist eine einzigartige Sorte mit außergewöhnlicher Süße und zartem Geschmack. Mikel's ist das einzige Unternehmen der Welt, das diese spezielle Frucht in Sirup produziert und macht sie zu einem exklusiven Angebot für anspruchsvolle Märkte.",
+    "handcrafted": "Handwerklich",
+    "handcraftedDesc": "Jedes Glas wird von Hand nach traditionellen Familienmethoden hergestellt",
+    "bestSeller": "Bestseller",
+    "bestSellerDesc": "Internationaler Favorit in Premium-Märkten",
+    "quote": "Hergestellt mit der gleichen Sorgfalt und Hingabe, die unsere Familie über mehr als 200 Jahre angewendet hat"
   },
-  "globalSupplyChain": {
-    "title": "Globale Lieferkette",
-    "subtitle": "Wir verbinden mediterrane Qualität mit weltweiter Reichweite"
+  "quality": {
+    "title": "Zertifizierungen",
+    "subtitle": "Jedes Produkt, das den Namen Mikel's trägt, repräsentiert unser unerschütterliches Engagement für Qualität, Authentizität und Gesundheit",
+    "vegan": "VEGANE LEBENSMITTEL",
+    "veganDesc": "100% pflanzliche Produkte, geeignet für vegane Diäten",
+    "gmoFree": "OHNE GVO",
+    "gmoFreeDesc": "Keine genetisch veränderten Organismen in irgendeinem Produkt",
+    "healthy": "GESUNDE LEBENSMITTEL",
+    "healthyDesc": "Natürliche Inhaltsstoffe, die das Wohlbefinden fördern",
+    "processTitle": "Minimale industrielle Verarbeitung",
+    "processDesc": "Unser Engagement, eine detaillierte Verarbeitung in jedem unserer Produkte für die Mikel's Food and Healthy Angebote zu bewahren, wie wir es seit 1819 tun. Vom Feld zum Glas bewahren wir strenge Qualitätskontrolle bei jedem Schritt.",
+    "qualityCommitment": "Qualitätsverpflichtung",
+    "organic": "Bio-Zertifizierungen",
+    "organicDesc": "Produkte mit Bio-Zertifikat nach internationalen Standards für nachhaltige Produktion",
+    "ecoGarden": "Eco Garden Zertifikat",
+    "ecoGardenDesc": "Nur 3 Unternehmen in Spanien haben diese Zertifizierung",
+    "globalGap": "GlobalGAP Zertifizierung",
+    "globalGapDesc": "Internationaler Standard für Gute Landwirtschaftliche Praktiken",
+    "ifsFood": "IFS Food Zertifizierung",
+    "ifsFoodDesc": "Unsere Verpackungsunternehmen verfügen über IFS Food und BRC Zertifizierungen, um maximale Lebensmittelsicherheit zu gewährleisten",
+    "packagingNote": "Unsere Verpackungsunternehmen verfügen über IFS Food und BRC Zertifizierungen, um maximale Lebensmittelsicherheit im Verpackungs- und Verteilungsprozess zu gewährleisten.",
+    "awardsTitle": "Preise und Zertifizierungen",
+    "oliveJapan2022": "Olive Japan 2022",
+    "oliveJapan2024": "World's Best 2024",
+    "oliveJapan2025": "Olive Japan 2025",
+    "ecoGardenCert": "Eco Garden",
+    "globalGap": "GlobalGAP Zertifizierung",
+    "globalGapDesc": "Internationaler Standard für Gute Landwirtschaftliche Praktiken",
+    "ifsFood": "IFS Food Zertifizierung",
+    "ifsFoodDesc": "Standard für Lebensmittelsicherheit und Qualität"
+  },
+  "supplyChain": {
+    "title": "Exzellenz in der globalen Lieferkette",
+    "subtitle": "Effiziente Logistik und engagierter Service stellen sicher, dass deine Produkte in Asien, Europa und Amerika ankommen",
+    "logistics": "Internationale Logistik",
+    "logisticsDesc": "Effizienter Versand zu allen Haupthäfen",
+    "standards": "Qualitätsstandards",
+    "standardsDesc": "Erfüllung internationaler Lebensmittelsicherheitsanforderungen",
+    "partnership": "Zuverlässige Zusammenarbeit",
+    "partnershipDesc": "Engagierter Support für dein Geschäftswachstum",
+    "exportTitle": "Unsere Exportfähigkeiten",
+    "container": "Container-Versand",
+    "containerDesc": "Volle und teilweise Container-Ladungen",
+    "coldChain": "Kühlkette",
+    "coldChainDesc": "Logistik mit kontrollierter Temperatur",
+    "documentation": "Dokumentation",
+    "documentationDesc": "Vollständige Exportdokumentation",
+    "customOrders": "Benutzerdefinierte Bestellungen",
+    "customOrdersDesc": "Lösungen, die an dein Markt angepasst sind"
+  },
+  "partnership": {
+    "title": "Experten in der Verteilung mediterraner Marken",
+    "subtitle": "Farms Planet: Dein strategischer Partner, um spanische Marken in die Welt zu bringen",
+    "uniqueProducts": "Einzigartige Produkte",
+    "uniqueProductsDesc": "Weltweit einziger Paraguayo in Sirup",
+    "qualityAssured": "Qualität garantiert",
+    "qualityAssuredDesc": "Premium-Produkte zertifiziert",
+    "yearsExperience": "200+ Jahre",
+    "yearsExperienceDesc": "Bewährte Tradition seit 1819",
+    "fullSupport": "Vollständiger Support",
+    "fullSupportDesc": "Engagierter Kundenservice",
+    "buildPartnership": "Lassen Sie uns eine erfolgreiche Zusammenarbeit aufbauen",
+    "partnershipDesc": "Farms Planet ist verpflichtet, deinen Erfolg in Europa, Nahost (VAE) und Asien mit authentischen spanischen Produkten, zuverlässiger Versorgung und außergewöhnlichem Service zu unterstützen. Bereits in Korea, Japan und Taiwan präsent.",
+    "ecommerce": "E-Commerce enthalten",
+    "ecommerceDesc": "Dein eigener Mikel's Online-Shop für deinen Markt"
+  },
+  "digitalPartnership": {
+    "title": "Vertreiber-Plattform",
+    "subtitle": "Als Farms Planet Vertreiber erhältst du nicht nur Premium-Produkte – du erhältst eine einsatzbereite E-Commerce-Plattform zum Verkauf auf deinem Markt",
+    "feature1": "Personalisierter Online-Shop",
+    "feature1Desc": "Vollständig funktionsfähige E-Commerce-Website mit deiner lokalen Domain, Sprache und Währung",
+    "feature2": "Produktkatalog",
+    "feature2Desc": "Vollständiger Katalog mit professioneller Fotografie, Beschreibungen und Nährwertinformationen",
+    "feature3": "Zahlungsintegration",
+    "feature3Desc": "Lokale Zahlungsmethoden und Versandoptionen für dein Land konfiguriert",
+    "feature4": "Marketing-Support",
+    "feature4Desc": "SEO-Optimierung, Social-Media-Ressourcen und digitale Marketing-Materialien",
+    "exampleTitle": "Sehen Sie es in Aktion",
+    "exampleDesc": "Besuchen Sie unseren spanischen Marktladen, um die vollständige Erfahrung zu sehen, die deine Kunden genießen werden",
+    "visitDemo": "Demo-Shop besuchen: mikels.es",
+    "requestStore": "Fordere deinen personalisierten Shop an"
+  },
+  "contact": {
+    "title": "Starten Sie deine Verteilungspartnerschaft",
+    "subtitle": "Verbinden Sie sich mit unserem internationalen Verkaufsteam, um Großaufträge und Markenverteilungsmöglichkeiten zu besprechen",
+    "bulkPricing": "Mengenrabatte verfügbar",
+    "distributionExpertise": "Expertise in globaler Verteilung",
+    "companyName": "Unternehmensname",
+    "contactPerson": "Kontaktperson",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "country": "Land",
+    "productInterest": "Produktinteresse",
+    "productPlaceholder": "Paraguayo, Olivenöl, Säfte, etc.",
+    "message": "Nachricht",
+    "messagePlaceholder": "Erzähle uns von deinen Verteilungsanforderungen, Zielmarkt, geschätzten Volumen und spezifischen Anforderungen...",
+    "requestCatalog": "Vollständigen Produktkatalog mit Mengenrabatten anfordern",
+    "submit": "Verteilungsinformationen anfordern",
+    "directContact": "Direkter Kontakt",
+    "ceo": "CEO",
+    "sales": "Vertrieb",
+    "successMessage": "Danke für dein Interesse! Wir werden dich bald kontaktieren."
   },
   "footer": {
-    "company": "Farms Planet",
-    "description": "Premium mediterrane Produkte aus Spanien",
-    "offices": "Büros - Lleida",
-    "address": "C/ Cardenal Cisneros 10",
-    "zipcode": "CP 25003 Lleida, Spanien",
-    "production": "Produktion - Alcarràs",
-    "productionAddress": "C/ Cardenal Cisneros 10",
-    "productionZipcode": "CP 25003 Alcarràs, Spanien",
-    "rights": "Alle Rechte vorbehalten",
+    "description": "Vertreiber von Premium-Mittelmeermarken mit über 200 Jahren Tradition. Dein vertrauenswürdiger Partner für authentische spanische Exzellenz.",
+    "quickLinks": "Schnelllinks",
     "contact": "Kontakt",
-    "privacy": "Datenschutz",
-    "terms": "Bedingungen"
-  },
-  "sections": {
-    "exportCapabilities": "Exportfähigkeiten",
-    "digitalPartnership": "Digitale Partnerschaft",
-    "onlineStore": "Online-Shop"
+    "rights": "Alle Rechte vorbehalten.",
+    "tagline": "Vertreiber von Premium-Mittelmeermarken"
   }
 }
