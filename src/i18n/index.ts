@@ -7,6 +7,8 @@ import ko from './locales/ko.json';
 import ja from './locales/ja.json';
 import zh from './locales/zh.json';
 import ar from './locales/ar.json';
+import ru from './locales/ru.json';
+import hy from './locales/hy.json';
 
 // Idiomas disponibles
 export const availableLanguages = [
@@ -17,6 +19,8 @@ export const availableLanguages = [
   { code: 'ja', name: '日本語', flag: '🇯🇵', dir: 'ltr' },
   { code: 'zh', name: '中文', flag: '🇨🇳', dir: 'ltr' },
   { code: 'ar', name: 'العربية', flag: '🇦🇪', dir: 'rtl' },
+  { code: 'ru', name: 'Русский', flag: '🇷🇺', dir: 'ltr' },
+  { code: 'hy', name: 'Հայերեն', flag: '🇦🇲', dir: 'ltr' },
 ];
 
 const resources = {
@@ -27,6 +31,8 @@ const resources = {
   ja: { translation: ja },
   zh: { translation: zh },
   ar: { translation: ar },
+  ru: { translation: ru },
+  hy: { translation: hy },
 };
 
 // Detectar idioma del navegador o usar inglés por defecto
