@@ -18,7 +18,7 @@ export default function SEO({
   const currentLang = i18n.language;
 
   // Default values if not provided
-  const siteTitle = title || t('hero.tagline');
+  const siteTitle = title || t('hero.title');
   const siteDescription = description || t('hero.subtitle');
   const fullTitle = `${siteTitle} | Farms Planet`;
 
